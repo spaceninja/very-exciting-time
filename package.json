@@ -1,0 +1,31 @@
+{
+  "name": "very-exciting-time",
+  "version": "1.0.0",
+  "description": "Website for the “It’s a Very Exciting Time” podcast",
+  "author": "Scott Vandehey",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "yarn watch",
+    "build": "run-p build:*",
+    "build:content": "eleventy",
+    "build:css": "sass src:dist",
+    "watch": "run-p watch:*",
+    "watch:content": "eleventy --serve",
+    "watch:css": "sass --watch src:dist",
+    "lint": "run-s lint:css lint:prettier",
+    "lint:check": "run-s lint:*:check",
+    "lint:css": "stylelint --fix '**/*.{css,scss}'",
+    "lint:css:check": "stylelint '**/*.{css,scss}'",
+    "lint:prettier": "prettier . --write",
+    "lint:prettier:check": "prettier . --check"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.8.8",
+    "sass": "^1.63.6",
+    "stylelint": "^15.9.0",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-spaceninja": "^12.0.0"
+  }
+}
