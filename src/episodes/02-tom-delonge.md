@@ -4,11 +4,9 @@ description: 'Wild but true: Most UFO developments since 2017 can be traced back
 date: 2022-10-31
 embedUrl: 02--Tom-DeLonge-e1pvr4s
 tags:
-  - ufo
-  - uap
   - aatip
+  - lue-elizondo
   - pentagon
-  - lou-elizondo
   - to-the-stars
   - tom-delonge
 ---

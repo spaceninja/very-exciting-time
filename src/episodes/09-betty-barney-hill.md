@@ -4,17 +4,15 @@ description: This classic case introduced the world to some common elements of a
 date: 2023-01-29
 embedUrl: 09--Betty--Barney-Hill-e1u6cqf
 tags:
-  - ufo
-  - uap
   - abduction
-  - missing-time
-  - hypnosis
-  - betty-hill
-  - barney-hill
   - aliens
-  - greys
-  - zeta-reticuli
+  - barney-hill
+  - betty-hill
   - classic-case
+  - greys
+  - hypnosis
+  - missing-time
+  - zeta-reticuli
 ---
 
 This week we’re talking about one of the foundational cases in the world of ufology: Betty and Barney Hill, who had an unusual encounter with a UFO while driving through the mountains late at night in 1961. They arrived home late, unable to account for 2-3 hours of time during their drive. They later recovered memories of being taken aboard the craft by aliens who conducted medical tests. It’s a foundational story that introduced the world to some common elements of abduction stories including missing time and grey aliens. It’s also got lots of room to be skeptical, and we’re going to dig into it.

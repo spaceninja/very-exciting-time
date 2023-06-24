@@ -4,14 +4,13 @@ description: The 2022 UAP Report was due on October 31. It’s December now, so 
 date: 2022-12-12
 embedUrl: 06--Where-is-the-2022-UAP-Report-e1s5223
 tags:
-  - ufo
-  - uap
-  - ndaa
   - aaro
-  - uap-report
-  - ross-coulthart
   - chris-mellon
   - congress
+  - john-greenewald
+  - ndaa
+  - ross-coulthart
+  - uap-report
   - whistleblower-protection
 ---
 

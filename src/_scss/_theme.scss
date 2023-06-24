@@ -83,24 +83,6 @@ a:active {
 .episode-list {
   list-style: none;
   padding: 0;
-  padding-left: 1.5rem;
-}
-
-.episode-list__item {
-  align-items: baseline;
-  counter-increment: start-from -1;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5em;
-  margin-bottom: 1em;
-}
-
-.episode-list__item::before {
-  content: '' counter(start-from, decimal-leading-zero) '. ';
-  display: inline-block;
-  margin-left: -1.5rem;
-  pointer-events: none;
-  text-align: right;
 }
 
 .app-footer {

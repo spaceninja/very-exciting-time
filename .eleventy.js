@@ -65,6 +65,11 @@ module.exports = function (eleventyConfig) {
     );
   });
 
+  // Return all tags sorted by name
+  eleventyConfig.addFilter('sortTagsByName', (tags) => {
+    return tags.sort((a, b) => a.localeCompare(b));
+  });
+
   // Current year shortcode
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
 

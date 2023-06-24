@@ -4,13 +4,11 @@ description: We’ll talk about what the report says, ask some questions about w
 date: 2023-01-15
 embedUrl: 08--The-2022-UAP-Report-is-Here--UFODaddy-e1thdmp
 tags:
-  - ufo
-  - uap
   - aaro
-  - uap-report
-  - drones
   - balloons
   - chris-mellon
+  - drones
+  - uap-report
 ---
 
 It’s finally here! We’ve been waiting for the 2022 annual UAP report since halloween. We’ll talk about what the report says, ask some questions about what it means, and dig into the community reaction to it. Let’s go!

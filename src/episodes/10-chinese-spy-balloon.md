@@ -1,18 +1,16 @@
 ---
 title: 10. Chinese spy balloon, UFOs, and the 2001 Disclosure Project press conference
-description: After shooting down the Chinese spy balloon, the US shot down two more UFOs? Also, Steven Greer's 2001 Disclosure Project press conference.
+description: After shooting down the Chinese spy balloon, the US shot down two more UFOs? Also, Steven Greer’s 2001 Disclosure Project press conference.
 date: 2023-02-12
 embedUrl: 10--Chinese-spy-balloon--UFOs--and-the-2001-Disclosure-Project-press-conference-e1uscml
 tags:
-  - ufo
-  - uap
   - balloons
   - chris-mellon
-  - steven-greer
   - crash-retrieval
+  - daniel-sheehan
   - reverse-engineering
   - robert-salas
-  - daniel-sheehan
+  - steven-greer
 ---
 
 We’ve got a jam-packed episode for you today. In addition to our planned topic, we open by discussing the news that the US has shot down a Chinese spy balloon, as well as two other UFOs! After discussing why they’re likely balloons, but that’s still interesting for the UFO community, we get to the main topic:

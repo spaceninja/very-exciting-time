@@ -6,10 +6,11 @@ tags:
   - nav
 ---
 <ul>
-{% for tag in collections.episodes | getAllTags | filterTagList %}
+{% for tag in collections.episodes | getAllTags | filterTagList | sortTagsByName %}
 	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 	<li>
     <a href="{{ tagUrl }}" class="episode-tag">{{ tag }}</a>
+    ({{ collections[tag].length }})
   </li>
 {% endfor %}
 </ul>

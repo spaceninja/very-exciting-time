@@ -4,11 +4,15 @@ description: “Really? You wanna be the UFO guy?” Yeah, actually, I do!
 date: 2022-10-30
 embedUrl: 01--Why-are-we-recording-a-podcast-about-UFOs-e1pvqsm
 tags:
-  - ufo
-  - uap
   - aatip
+  - aatip
+  - congress
+  - harry-reid
+  - leslie-kean
+  - lue-elizondo
+  - new-york-times
   - pentagon
-  - lou-elizondo
+  - ralph-blumenthal
 ---
 
 “Really? You wanna be the UFO guy?” Yeah, actually, I do! Because I think most people don’t understand that since 2017 there has been a rapid increase in astonishing information about UFOs. From the 2017 New York Times article disclosing the existence of a secret Pentagon UFO program, to the release of confirmed Navy videos of UFOs, to Congress demanding an annual report about what the military knows about UFOs, to the recent proposal to grant immunity to UFO program whistleblowers — there’s been a LOT!

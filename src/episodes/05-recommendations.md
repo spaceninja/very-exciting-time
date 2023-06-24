@@ -1,21 +1,19 @@
 ---
 title: 05. Recommendations for UFO books, videos, etc
-description: Here are some books, TV series, documentaries, and podcasts that I’d recommend.
+description: Here are some books, TV series, documentaries, and podcasts that I vd recommend.
 date: 2022-11-27
 embedUrl: 05--Recommendations-for-UFO-books--videos--etc-e1rd2dd
 tags:
-  - ufo
-  - uap
-  - ross-coulthart
-  - leslie-kean
-  - john-mack
-  - tom-delonge
-  - lou-elizondo
-  - chris-mellon
-  - mufon
-  - james-fox
   - bob-lazar
+  - chris-mellon
+  - james-fox
   - jeremy-corbell
+  - john-mack
+  - leslie-kean
+  - lue-elizondo
+  - mufon
+  - ross-coulthart
+  - tom-delonge
 ---
 
 Chuck’s out sick this week, so I’ve got a mini-episode for you. If you’ve enjoyed the topic so far, you might be interested in going a bit further. If so, here are some books, TV series, documentaries, and podcasts that I’d recommend.
@@ -29,7 +27,7 @@ Chuck’s out sick this week, so I’ve got a mini-episode for you. If you’ve 
 
 ## Series
 
-- [⁠Unidentified: Inside America’s UFO Investigation⁠](https://www.imdb.com/title/tt10016814/) , by History Channel, 2019 — The TTSA series focused on Lou Elizondo and Chris Mellon
+- [⁠Unidentified: Inside America’s UFO Investigation⁠](https://www.imdb.com/title/tt10016814/) , by History Channel, 2019 — The TTSA series focused on Lue Elizondo and Chris Mellon
 - [⁠Hangar 1: The UFO Files⁠](https://www.imdb.com/title/tt3552688/) , by History Channel, 2014 — Netflix series that goes over famous cases in MUFON files
 - [⁠UFO⁠](https://www.imdb.com/title/tt14866442/) by JJ Abrams, 2021 — A four-part Showtime series, good summary
 

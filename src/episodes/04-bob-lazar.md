@@ -4,13 +4,11 @@ description: Bob Lazar is a 1988 whistleblower who claims he worked in a reverse
 date: 2022-11-13
 embedUrl: 04--Bob-Lazar-e1qn3rm
 tags:
-  - ufo
-  - uap
   - area-51
   - bob-lazar
-  - crash-recovery
-  - reverse-engineering
   - classic-case
+  - crash-retrieval
+  - reverse-engineering
 ---
 
 Bob Lazar is arguably the most controversial figure in the world of UFOs. In a nutshell, Bob is a whistleblower who came out in 1988 with claims that he worked in a reverse engineering program for recovered alien craft that are kept at Area 51. Today we’re going to get into it: Who is Bob, what does he claim, why did he come forward, and what are the points that make him more or less credible. Because if anything Bob claims is true? …It’s a very exciting time!

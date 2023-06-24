@@ -4,15 +4,13 @@ description: The famous “tic-tac” UAP incident occured during a training exe
 date: 2023-01-09
 embedUrl: 07--USS-Nimitz-Encounter-e1t8tvd
 tags:
-  - ufo
-  - uap
-  - nimitz
-  - tic-tac
-  - navy
   - david-fravor
-  - kevin-day
-  - roosevelt
   - gary-voorhis
+  - kevin-day
+  - navy
+  - nimitz
+  - roosevelt
+  - tic-tac
 ---
 
 In 2004, the USS Nimitz carrier group tracked hundreds of anomalous radar signals while preparing for a training exercise. Commander David Fravor, flying an F/A-18 Super Hornet, was dispatched to investigate one signal and encountered an unusual flying craft he described as the “tic-tac.” This incident was discussed in the 2017 New York Times coverage of the Pentagon’s UAP office, including the now-famous “FLIR” video. Today we’re going to discuss the incident in detail, and why it marks a turning point in the UFO conversation.

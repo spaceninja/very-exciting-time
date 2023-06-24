@@ -4,13 +4,11 @@ description: The memo covers Admiral Wilson’s discovery of a secret UFO crash 
 date: 2022-11-01
 embedUrl: 03--The-Admiral-Wilson-Memo-e1pvu9p
 tags:
-  - ufo
-  - uap
-  - pentagon
-  - crash-retrieval
-  - reverse-engineering
   - admiral-wilson
+  - crash-retrieval
   - eric-davis
+  - pentagon
+  - reverse-engineering
   - steven-greer
 ---
 
