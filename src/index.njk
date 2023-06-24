@@ -1,7 +1,33 @@
 ---
-layout: layout.njk
-title: It’s a Very Exciting Time
+layout: layouts/base.njk
+numberOfLatestEpisodesToShow: 3
 ---
 
-<h1>It’s a Very Exciting Time</h1>
-<p>A podcast by a UFO nerd and his tolerant friend. Because if UFOs are real… what else? If any of this turns out to be true, it's a very exciting time!</p>
+<h1>{{ metadata.title }}</h1>
+<p>{{ metadata.description }}</p>
+
+{% set episodesCount = collections.episodes | length %}
+{% set latestEpisodesCount = episodesCount | min(numberOfLatestEpisodesToShow) %}
+<h2>
+  Latest {{ latestEpisodesCount }}
+  Episode{% if latestEpisodesCount != 1 %}s{% endif %}
+</h2>
+
+{% set episodeList = collections.episodes | head(-1 * numberOfLatestEpisodesToShow) %}
+{% set episodeListCounter = episodesCount %}
+{% include "episode-list.njk" %}
+
+{% set moreEpisodes = episodesCount - numberOfLatestEpisodesToShow %}
+{% if moreEpisodes > 0 %}
+<p>
+  {{ moreEpisodes }} more episode{% if moreEpisodes != 1 %}s{% endif %}
+  can be found in <a href="/archive/">the archive</a>.
+</p>
+{% endif %}
+
+{# List every content page in the project #}
+<ul>
+	{%- for entry in collections.all %}
+	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
+	{%- endfor %}
+</ul>

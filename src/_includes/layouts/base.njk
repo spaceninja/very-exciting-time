@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if title %}{{ title }} | {% endif %}{{ metadata.title }}</title>
+  <meta name="description" content="{{ description or metadata.description }}">
+  <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+  <link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" href="/favicon.svg">
+  <link rel="mask-icon" href="/favicon.svg" color="#000000">
+  <link rel="stylesheet" href="/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body class="{{ body_class }}">
+  <a href="#skip" class="visually-hidden">Skip to main content</a>
+  <header class="app-header" id="top">
+    <div class="app-header__content">
+      <a href="/">{{ metadata.title }}</a>
+      <nav>
+        <ul>
+          <li><a href="/archive">Archive</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="app-main {{ main_class }}" id="skip">
+    {{ content | safe }}
+  </main>
+  <footer class="app-footer">
+    <div class="app-footer__content">
+      <p>© {% year %} {{ metadata.author.name }}</p>
+    </div>
+  </footer>
+</body>
+</html>

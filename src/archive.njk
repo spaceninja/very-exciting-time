@@ -1,0 +1,8 @@
+---
+layout: layouts/base.njk
+title: Archive
+---
+<h1>{{ title }}</h1>
+
+{% set episodeList = collections.episodes %}
+{% include "episode-list.njk" %}

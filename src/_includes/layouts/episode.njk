@@ -1,0 +1,33 @@
+---
+layout: layouts/base.njk
+---
+<h1>{{ title }}</h1>
+
+<ul class="episode-metadata">
+	<li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></li>
+	{%- for tag in tags | filterTagList %}
+	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+	<li><a href="{{ tagUrl }}" class="episode-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
+	{%- endfor %}
+</ul>
+
+{{ content | safe }}
+
+{%- if collections.episodes %}
+  {%- set previousEpisode = collections.episodes | getPreviousCollectionItem %}
+  {%- set nextEpisode = collections.episodes | getNextCollectionItem %}
+  {%- if nextEpisode or previousEpisode %}
+    <ul class="links-nextprev">
+      {%- if previousEpisode %}
+        <li>
+          Previous: <a href="{{ previousEpisode.url }}">{{ previousEpisode.data.title }}</a>
+        </li>
+      {% endif %}
+      {%- if nextEpisode %}
+        <li>
+          Next: <a href="{{ nextEpisode.url }}">{{ nextEpisode.data.title }}</a>
+        </li>
+      {% endif %}
+    </ul>
+  {%- endif %}
+{%- endif %}
