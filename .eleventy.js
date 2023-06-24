@@ -2,6 +2,10 @@ const { DateTime } = require('luxon');
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 
+/**
+ * Based on Eleventy Base Blog v8
+ * @see https://github.com/11ty/eleventy-base-blog/tree/main
+ */
 module.exports = function (eleventyConfig) {
   // Copy over various static files
   eleventyConfig.addPassthroughCopy(
@@ -57,7 +61,7 @@ module.exports = function (eleventyConfig) {
   // Return all the tags used in a collection, except some
   eleventyConfig.addFilter('filterTagList', function filterTagList(tags) {
     return (tags || []).filter(
-      (tag) => ['all', 'nav', 'episode', 'episodes'].indexOf(tag) === -1
+      (tag) => ['all', 'nav', 'episodes'].indexOf(tag) === -1
     );
   });
 

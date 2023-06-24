@@ -1,11 +1,110 @@
+/* Defaults */
+:root {
+  --font-family: -apple-system, system-ui, sans-serif;
+  --font-family-monospace: consolas, menlo, monaco, andale mono wt, andale mono,
+    lucida console, lucida sans typewriter, dejavu sans mono,
+    bitstream vera sans mono, liberation mono, nimbus mono l, courier new,
+    courier, monospace;
+
+  /* Theme colors */
+  --color-gray-20: #e0e0e0;
+  --color-gray-50: #c0c0c0;
+  --color-gray-90: #333;
+  --background-color: #fff;
+  --text-color: var(--color-gray-90);
+  --text-color-link: #082840;
+  --text-color-link-active: #5f2b48;
+  --text-color-link-visited: #17050f;
+  --syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-gray-20: #e0e0e0;
+    --color-gray-50: #c0c0c0;
+    --color-gray-90: #dad8d8;
+    --text-color-link: #1493fb;
+    --text-color-link-active: #6969f7;
+    --text-color-link-visited: #a6a6f8;
+    --background-color: #15202b;
+  }
+}
+
 html {
   color-scheme: dark light;
+}
+
+body {
+  background: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
 }
 
 h1 {
   color: hotpink;
 }
 
+a {
+  color: var(--text-color-link);
+}
+
+a:visited {
+  color: var(--text-color-link-visited);
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: var(--text-color-link-active);
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.app-header {
+  border-bottom: 1px solid currentcolor;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+
 .app-header__nav-link[aria-current] {
   font-weight: bold;
+}
+
+/* Posts list */
+.episode-list {
+  list-style: none;
+  padding: 0;
+  padding-left: 1.5rem;
+}
+
+.episode-list__item {
+  align-items: baseline;
+  counter-increment: start-from -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-bottom: 1em;
+}
+
+.episode-list__item::before {
+  content: '' counter(start-from, decimal-leading-zero) '. ';
+  display: inline-block;
+  margin-left: -1.5rem;
+  pointer-events: none;
+  text-align: right;
+}
+
+.app-footer {
+  border-bottom: 1px solid currentcolor;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
 }

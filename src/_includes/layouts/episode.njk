@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.njk
 ---
+<h1>{{ title }}</h1>
 <ul class="episode-metadata">
 	<li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></li>
 	{%- for tag in tags | filterTagList %}
@@ -8,6 +9,16 @@ layout: layouts/base.njk
 	<li><a href="{{ tagUrl }}" class="episode-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
 	{%- endfor %}
 </ul>
+
+{% if embedUrl %}
+<iframe
+  src="https://podcasters.spotify.com/pod/show/very-exciting-time/embed/episodes/{{ embedUrl }}"
+  height="100px"
+  width="400px"
+  frameborder="0"
+  scrolling="no"
+></iframe>
+{% endif %}
 
 {{ content | safe }}
 
