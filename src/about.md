@@ -1,8 +1,14 @@
 ---
 layout: layouts/base.njk
-title: About Me
+title: About
+tags:
+  - nav
 ---
 
-# {{ title }}
+## Chuck Lauer Vose
 
-I am a person that writes stuff.
+TODO: description & photo
+
+## Scott Vandehey
+
+TODO: description & photo

@@ -15,24 +15,33 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body class="{{ body_class }}">
-  <a href="#skip" class="visually-hidden">Skip to main content</a>
-  <header class="app-header" id="top">
+  <header class="app-header">
     <div class="app-header__content">
-      <a href="/">{{ metadata.title }}</a>
-      <nav>
-        <ul>
-          <li><a href="/archive">Archive</a></li>
-          <li><a href="/about">About</a></li>
+      <a href="/" class="app-header__logo">{{ metadata.title }}</a>
+      <p class="app-header__tagline">{{ metadata.tagline }}</p>
+      <nav class="app-header__nav">
+        <ul class="app-header__nav-list">
+          {%- for entry in collections.nav %}
+            <li class="app-header__nav-item">
+              <a
+                href="{{ entry.url }}"
+                class="app-header__nav-link"
+                {% if entry.url == page.url %} aria-current="page"{% endif %}>
+                {{ entry.data.title }}
+              </a>
+            </li>
+          {%- endfor %}
         </ul>
       </nav>
     </div>
   </header>
-  <main class="app-main {{ main_class }}" id="skip">
+  <main class="app-main {{ main_class }}">
+    <h1>{{ title or metadata.title }}</h1>
     {{ content | safe }}
   </main>
   <footer class="app-footer">
     <div class="app-footer__content">
-      <p>© {% year %} {{ metadata.author.name }}</p>
+      <p class="app-footer__copyright">© {% year %} {{ metadata.author.name }}</p>
     </div>
   </footer>
 </body>

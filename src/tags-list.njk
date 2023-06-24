@@ -2,9 +2,9 @@
 permalink: /tags/
 layout: layouts/base.njk
 title: Tags
+tags:
+  - nav
 ---
-<h1>{{ title }}</h1>
-
 <ul>
 {% for tag in collections.all | getAllTags | filterTagList %}
 	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}

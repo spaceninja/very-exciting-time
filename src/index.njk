@@ -2,8 +2,6 @@
 layout: layouts/base.njk
 numberOfLatestEpisodesToShow: 3
 ---
-
-<h1>{{ metadata.title }}</h1>
 <p>{{ metadata.description }}</p>
 
 {% set episodesCount = collections.episodes | length %}
@@ -24,10 +22,3 @@ numberOfLatestEpisodesToShow: 3
   can be found in <a href="/archive/">the archive</a>.
 </p>
 {% endif %}
-
-{# List every content page in the project #}
-<ul>
-	{%- for entry in collections.all %}
-	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
-	{%- endfor %}
-</ul>

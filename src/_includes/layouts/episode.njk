@@ -1,8 +1,6 @@
 ---
 layout: layouts/base.njk
 ---
-<h1>{{ title }}</h1>
-
 <ul class="episode-metadata">
 	<li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></li>
 	{%- for tag in tags | filterTagList %}

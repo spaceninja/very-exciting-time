@@ -1,3 +1,11 @@
+html {
+  color-scheme: dark light;
+}
+
 h1 {
   color: hotpink;
+}
+
+.app-header__nav-link[aria-current] {
+  font-weight: bold;
 }
