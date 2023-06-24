@@ -1,6 +1,6 @@
 ---
 title: 'Bonus: Chuck and Scott get their giggles out'
-description: This is a post on My Blog about win-win survival strategies.
+description: A delight for the senses!
 date: 2022-10-29
 embedUrl: Bonus-Chuck-and-Scott-get-their-giggles-out-e1pvqpa
 tags:
