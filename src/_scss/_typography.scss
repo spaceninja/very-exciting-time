@@ -10,6 +10,7 @@ html {
 
 body {
   font-family: var(--font-family-sans);
+  line-height: var(--line-height-m);
 }
 
 .app-header__logo,
@@ -23,8 +24,30 @@ h2,
 h3 {
   font-family: var(--font-family-condensed);
   font-style: italic;
+  line-height: var(--line-height-s);
   margin-bottom: 0.25em;
   text-wrap: balance;
+}
+
+h1 {
+  font-size: var(--font-size-xxxl);
+}
+
+h2 {
+  font-size: var(--font-size-xxl);
+}
+
+h3 {
+  font-size: var(--font-size-xl);
+}
+
+h4 {
+  font-size: var(--font-size-l);
+}
+
+h5,
+h6 {
+  font-size: var(--font-size-m);
 }
 
 p {
