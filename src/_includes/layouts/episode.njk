@@ -21,6 +21,12 @@ metaType: article
 ></iframe>
 {% endif %}
 
+<ul>
+  {% if appleUrl %}<li><a href="{{ appleUrl }}">Listen on Apple Podcasts</a></li>{% endif %}
+  {% if googleUrl %}<li><a href="{{ googleUrl }}">Listen on Google Podcasts</a></li>{% endif %}
+  {% if spotifyUrl %}<li><a href="{{ spotifyUrl }}">Listen on Spotify</a></li>{% endif %}
+</ul>
+
 {{ content | safe }}
 
 {%- if collections.episodes %}

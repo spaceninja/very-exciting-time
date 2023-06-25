@@ -3,6 +3,9 @@ title: '19. David Grusch Week 2: The Vatican, UFO “agreements,” and coverups
 description: 'David Grusch: Pope helped the US recover a UFO, and the government has “agreements” with non-human intelligences.'
 date: 2023-06-18
 embedUrl: 19--David-Grusch-Week-2-The-Vatican--UFO-agreements--and-coverups-e25stp7
+appleUrl: https://podcasts.apple.com/us/podcast/19-david-grusch-week-2-the-vatican-ufo-agreements/id1652237240?i=1000617473505&itsct=podcast_box&itscg=30200&ls=1
+googleUrl: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9iOTJkNmVhMC9wb2RjYXN0L3Jzcw/episode/ZjNkMTdlZjgtODVkYi00YzBmLWExMTAtNmJhY2U5MzJhZWQ4
+spotifyUrl: https://open.spotify.com/episode/01WcPGiXl3QtPdJI3rp5Wu?si=f84fb69489a649bc
 tags:
   - aaro
   - aliens
