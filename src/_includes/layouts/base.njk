@@ -3,8 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	{% set pageTitle %}{% if title %}{{ title }} | {% endif %}{{ metadata.title }}{% endset %}
-  <title>{{ pageTitle }}</title>
+  <title>{% if title %}{{ title }} | {% endif %}{{ metadata.title }}</title>
   <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
   <link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,11 +12,11 @@
   <link rel="mask-icon" href="/favicon.svg" color="#000000">
   <link rel="stylesheet" href="/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-  <meta property='og:site_name' content='{{ pageTitle }}' />
+  <meta property='og:site_name' content='{{ metadata.title }}' />
   <meta property='og:locale' content='en_US' />
   <meta property='og:type' content='{{ metaType or 'website' }}' />
   <meta property='og:url' content='https://veryexcitingtime.com{{ page.url }}' />
-  <meta property='og:title' content='{{ pageTitle }}' />
+  <meta property='og:title' content='{{ title or metadata.title }}' />
   <meta property='og:description' content='{{ description or metadata.description }}' />
   <meta name='description' content='{{ description or metadata.description }}' />
   <meta property='twitter:card' content='summary_large_image' />
