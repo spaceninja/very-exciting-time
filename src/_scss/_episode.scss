@@ -1,0 +1,14 @@
+.spotify-embed {
+  display: block;
+  height: 100px;
+  width: 100%;
+
+  // update padding to match main padding
+  @media (min-width: calc(48em + 1.25em)) {
+    height: 161px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    filter: opacity(0.66);
+  }
+}

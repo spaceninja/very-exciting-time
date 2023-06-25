@@ -1,0 +1,40 @@
+@use 'breakpoints';
+
+.app-main__content {
+  background: var(--color-page-bg);
+  border-radius: 0.5em;
+  box-shadow: inset 0 1px 1px var(--color-main-highlight),
+    0 calc(var(--size-xs) / 2) var(--size-xs) rgba(0 0 0 / 20%);
+  color: var(--color-page-fg);
+  display: flow-root;
+  margin-inline: var(--size-s);
+  max-width: var(--size-page-width);
+  padding: var(--size-m);
+
+  *:first-child {
+    margin-block-start: 0;
+  }
+
+  *:last-child {
+    margin-block-end: 0;
+  }
+
+  @media screen and (min-width: #{breakpoints.$breakpoint-s}) {
+    margin-inline: var(--size-l);
+    padding: var(--size-l);
+  }
+
+  @media screen and (min-width: #{breakpoints.$breakpoint-m}) {
+    margin-inline: var(--size-xl);
+    padding: var(--size-xl);
+  }
+
+  @media screen and (min-width: #{breakpoints.$breakpoint-l}) {
+    margin-inline: var(--size-xxl);
+    padding: var(--size-xxl);
+  }
+
+  @media screen and (min-width: #{breakpoints.$breakpoint-xl}) {
+    margin-inline: auto;
+  }
+}

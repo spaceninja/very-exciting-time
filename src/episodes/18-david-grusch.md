@@ -33,7 +33,7 @@ It’s happening! Whistleblower David Grusch, a USAF veteran and senior intellig
 - The Guardian: [⁠House of Representatives to hold hearing on whistleblower’s UFO claims⁠](https://www.theguardian.com/world/2023/jun/08/ufo-house-representatives-hearing-investigation)
 - Tim Burchett: [⁠“We are not alone, and we’ll get some answers.”⁠](https://twitter.com/HighPeaks77/status/1666772506206666753)
 - Vanity Fair: [⁠Why The New York Times, The Washington Post, and Politico Didn’t Publish a Seemingly Bombshell Report About UFOs⁠](https://www.vanityfair.com/news/2023/06/ufo-report-media)
-- Liberation Times: [⁠Former Chief Scientist for Air Force Space Command Vouches For UFO Whistleblower’s Integrit⁠](https://www.liberationtimes.com/home/former-chief-scientist-for-air-force-space-command-vouches-for-ufo-whistleblowers-integrity) y
+- Liberation Times: [⁠Former Chief Scientist for Air Force Space Command Vouches For UFO Whistleblower’s Integrity⁠](https://www.liberationtimes.com/home/former-chief-scientist-for-air-force-space-command-vouches-for-ufo-whistleblowers-integrity)
 - Ross Coulthart: [⁠“Grusch has given the location of where craft are stored.”⁠](https://www.reddit.com/r/UFOs/comments/146bfru/disclosure_david_grusch_has_given_locations_of/)
 - Ross Coulthart on [⁠Grusch’s lack of evidence⁠](https://twitter.com/rosscoulthart/status/1667324202838552577)
 - Kelly Chase on [⁠Grusch clearing DOPSR⁠](https://twitter.com/UFO_Rabbit_Hole/status/1666806748525772800)

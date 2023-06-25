@@ -1,0 +1,47 @@
+@use 'breakpoints';
+
+html {
+  font-size: 14px;
+
+  @media screen and (min-width: #{breakpoints.$breakpoint-s}) {
+    font-size: 16px;
+  }
+}
+
+body {
+  font-family: var(--font-family-sans);
+}
+
+.app-header__logo,
+h1 {
+  text-shadow: 0 0 0.1em var(--color-heading-glow);
+}
+
+.app-header__logo,
+h1,
+h2,
+h3 {
+  font-family: var(--font-family-condensed);
+  font-style: italic;
+  margin-bottom: 0.25em;
+  text-wrap: balance;
+}
+
+p {
+  margin-top: 0;
+}
+
+.intro {
+  font-size: larger;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}

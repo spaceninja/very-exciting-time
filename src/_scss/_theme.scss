@@ -4,33 +4,88 @@ $color-purple-alpha: rgba(#cf2aff, 0.25);
 :root {
   --font-family-system: -apple-system, system-ui, sans-serif;
   --font-family-sans: roboto, var(--font-family-system);
-  --font-family-condensed: 'roboto condensed', var(--font-family-sans);
+  --font-family-condensed: 'roboto condensed', sans-serif-condensed,
+    var(--font-family-sans);
 
-  /* Theme colors */
+  // Font Sizes
+  --font-size-xs: 0.75rem; // 12px
+  --font-size-s: 0.875rem; // 14px
+  --font-size-m: 1rem; // 16px
+  --font-size-l: 1.125rem; // 18px
+  --font-size-xl: 1.375rem; // 22px
+  --font-size-xxl: 1.625rem; // 26px
+  --font-size-xxxl: 2rem; // 32px
+
+  // Line Heights
+  --line-height-s: 1.3;
+  --line-height-m: 1.4;
+  --line-height-l: 1.6;
+  --line-height-xl: 1.875;
+
+  // Size Tokens
+  --size: 0.625rem; // 10px
+  --size-xs: calc(var(--size) * 0.5); // 5px
+  --size-s: calc(var(--size) * 1); // 10px
+  --size-m: calc(var(--size) * 1.5); // 15px
+  --size-l: calc(var(--size) * 2); // 20px
+  --size-xl: calc(var(--size) * 2.5); // 25px
+  --size-xxl: calc(var(--size) * 3); // 30px
+  --size-xxxl: calc(var(--size) * 4); // 40px
+
+  // Sizes
+  --size-page-width: 53rem; // 848px
+
+  // Border Sizes
+  --border-thin: 0.0625rem; // 1px
+  --border-medium: 0.125rem; // 2px
+  --border-thick: 0.1875rem; // 3px
+
+  // Theme colors
+  --color-white-90: rgba(255 255 255 / 90%);
+  --color-white-70: rgba(255 255 255 / 70%);
+  --color-white-20: rgba(255 255 255 / 20%);
   --color-gray-20: #e0e0e0;
   --color-gray-50: #c0c0c0;
+  --color-gray-70: #666;
   --color-gray-90: #333;
+  --color-black-90: rgba(0 0 0 / 70%);
   --color-purple: #cf2aff;
-  --color-purple-alpha: #{$color-purple-alpha};
-  --background-color: #fff;
-  --text-color: var(--color-gray-90);
-  --text-color-link: #082840;
-  --text-color-link-active: #5f2b48;
-  --text-color-link-visited: #17050f;
-  --syntax-tab-size: 2;
-  --text-color-title-glow: var(--color-purple-alpha);
+  --color-purple-alpha: color-mix(
+    in srgb,
+    var(--color-purple),
+    transparent 50%
+  );
+  --color-yellow-alpha: rgba(255 255 0 / 10%);
+
+  // Base Theme
+  --color-page-bg: var(--color-white-90);
+  --color-page-fg: var(--color-gray-90);
+  --color-page-fg-subtle: var(--color-gray-70);
+  --color-link: var(--color-page-fg);
+  --color-link-hover: var(--color-page-fg);
+  --color-link-bg-hover: var(--color-yellow-alpha);
+  --color-heading-glow: var(--color-purple-alpha);
+
+  // Header
+  --color-header-bg: rgba(52 46 56 / 66%); // custom to match top of gradient
+  --color-header-fg: var(--color-white-90);
+  --color-header-fg-subtle: var(--color-white-70);
+
+  // Main
+  --color-main-highlight: white;
+
+  // Footer
+  --color-footer-bg: rgba(50 30 20 / 66%); // custom to match bottom of gradient
+  --color-footer-fg: var(--color-white-90);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-gray-20: #e0e0e0;
-    --color-gray-50: #c0c0c0;
-    --color-gray-90: #dad8d8;
-    --text-color-link: #1493fb;
-    --text-color-link-active: #6969f7;
-    --text-color-link-visited: #a6a6f8;
-    --background-color: #15202b;
-    --text-color-title-glow: var(--color-purple);
+    --color-page-bg: var(--color-black-90);
+    --color-page-fg: var(--color-white-90);
+    --color-page-fg-subtle: var(--color-white-70);
+    --color-main-highlight: var(--color-white-20);
+    --color-link-bg-hover: var(--color-purple-alpha);
   }
 }
 
@@ -39,115 +94,50 @@ html {
 }
 
 body {
-  background: var(--background-color);
-  color: var(--text-color);
-  font-family: var(--font-family-sans);
-  margin: 1em;
-}
+  background: linear-gradient(
+    to bottom,
+    #3d302f,
+    #4b3e41,
+    #5f525d,
+    #706267,
+    #6f6569,
+    #6c636a,
+    #70666a,
+    #706466,
+    #695f62,
+    #736565,
+    #816c68,
+    #77625a,
+    #825d46,
+    #8b5735,
+    #58341f,
+    #27150f
+  );
+  background-attachment: fixed;
+  background-color: var(--color-page-bg);
+  color: var(--color-page-fg);
 
-.app-header__logo,
-h1 {
-  text-shadow: 0 0 0.1em var(--text-color-title-glow);
-}
-
-.app-header__logo,
-h1,
-h2,
-h3 {
-  font-family: var(--font-family-condensed);
-  font-style: italic;
+  &::before {
+    backdrop-filter: blur(10px); // makes the gradient a bit smoother
+    content: '';
+    inset: 0;
+    position: fixed;
+    z-index: -1;
+  }
 }
 
 a {
-  color: var(--text-color-link);
-}
+  border-radius: 0.2em;
+  color: var(--color-link);
+  padding: 0.2em 0.1em;
+  text-decoration-color: var(--color-page-fg-subtle);
+  text-decoration-thickness: var(--border-thin);
+  text-underline-offset: 0.15em;
 
-a:visited {
-  color: var(--text-color-link-visited);
-}
-
-a:hover,
-a:focus,
-a:active {
-  color: var(--text-color-link-active);
-}
-
-.app-header__logo {
-  color: var(--text-color);
-  font-size: 2.5em;
-  font-weight: bold;
-  text-decoration: none;
-
-  &:visited,
   &:hover,
-  &:focus,
-  &:active {
-    color: var(--text-color);
+  &:focus {
+    background-color: var(--color-link-bg-hover);
+    color: var(--color-link-hover);
+    text-decoration-thickness: var(--border-medium);
   }
-}
-
-/* https://www.a11yproject.com/posts/how-to-hide-content/ */
-.visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
-
-.app-header {
-  border-bottom: 1px solid currentcolor;
-  margin-bottom: 1em;
-  padding-bottom: 1em;
-}
-
-.app-header__nav-list {
-  display: flex;
-  gap: 0.5em;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.app-header__nav-link[aria-current] {
-  font-weight: bold;
-}
-
-/* Posts list */
-.episode-list {
-  list-style: none;
-  padding: 0;
-}
-
-.app-footer {
-  border-top: 1px solid currentcolor;
-  clear: both;
-  margin-top: 1em;
-  padding-top: 1em;
-}
-
-.about__photo {
-  border-radius: 50%;
-  float: left;
-  margin-bottom: 1em;
-  margin-right: 1em;
-}
-
-.spotify-embed {
-  height: 100px;
-  width: 100%;
-
-  // update 2em padding to match body padding
-  @media (min-width: 50em) {
-    height: 161px;
-  }
-}
-
-.app-header__content,
-.app-footer__content,
-.app-main {
-  margin-inline: auto;
-  max-width: 50em;
 }

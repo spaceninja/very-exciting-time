@@ -1,0 +1,52 @@
+@use 'breakpoints';
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-s);
+  margin: 0;
+
+  @media screen and (min-width: #{breakpoints.$breakpoint-s}) {
+    gap: var(--size-l);
+  }
+
+  @media screen and (min-width: #{breakpoints.$breakpoint-m}) {
+    gap: var(--size-xl);
+  }
+
+  @media screen and (min-width: #{breakpoints.$breakpoint-l}) {
+    gap: var(--size-xxl);
+  }
+
+  @media screen and (min-width: #{breakpoints.$breakpoint-xl}) {
+    gap: var(--size-xxxl);
+  }
+}
+
+.app-header {
+  flex: none;
+}
+
+.app-main {
+  flex: 1;
+}
+
+.app-footer {
+  flex: none;
+}

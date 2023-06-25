@@ -1,0 +1,102 @@
+@use 'breakpoints';
+
+.app-header {
+  background: var(--color-header-bg);
+  color: var(--color-header-fg);
+  line-height: var(--line-height-s);
+}
+
+.app-header__content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-condensed);
+  font-size: var(--font-size-m);
+  line-height: 1;
+  margin-inline: auto;
+  max-width: var(--size-page-width);
+  padding: var(--size-l) var(--size-s);
+
+  @media screen and (min-width: #{breakpoints.$breakpoint-s}) {
+    font-size: var(--font-size-l);
+  }
+
+  @media screen and (min-width: #{breakpoints.$breakpoint-l}) {
+    flex-direction: row;
+    font-size: var(--font-size-xl);
+  }
+}
+
+.app-header__branding {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  line-height: 1.1;
+  text-align: center;
+
+  @media screen and (min-width: #{breakpoints.$breakpoint-l}) {
+    text-align: left;
+  }
+}
+
+.app-header__logo {
+  color: var(--color-header-fg);
+  padding: 0;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+
+  @media screen and (min-width: #{breakpoints.$breakpoint-l}) {
+    font-size: 2.5em;
+  }
+
+  &:visited,
+  &:hover,
+  &:focus,
+  &:active {
+    background: none;
+    color: var(--color-header-fg);
+  }
+}
+
+.app-header__tagline {
+  margin: 0;
+}
+
+.app-header__nav {
+  font-size: var(--font-size-m);
+  margin-top: 0.5em;
+
+  @media screen and (min-width: #{breakpoints.$breakpoint-l}) {
+    margin-left: auto;
+    margin-top: 0;
+  }
+}
+
+.app-header__nav-list {
+  display: flex;
+  gap: 1em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * 1. reset button styles
+ */
+.app-header__nav-link {
+  color: var(--color-header-fg-subtle);
+  padding: 0;
+  text-decoration: none;
+
+  &:hover,
+  &:focus,
+  &[aria-current='page'] {
+    background: none;
+    color: var(--color-header-fg);
+  }
+
+  &[aria-current='page'] {
+    font-weight: bold;
+  }
+}

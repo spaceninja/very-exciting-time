@@ -1,0 +1,34 @@
+@use 'breakpoints';
+
+.app-footer {
+  background: var(--color-footer-bg);
+  color: var(--color-footer-fg);
+  line-height: var(--line-height-s);
+
+  a {
+    color: var(--color-footer-link, inherit);
+
+    &:hover,
+    &:focus {
+      text-decoration-color: none;
+    }
+  }
+}
+
+.app-footer__content {
+  align-items: center;
+  font-family: var(--font-condensed);
+  font-size: var(--font-size-xs);
+  margin-inline: auto;
+  max-width: var(--size-page-width);
+  padding: var(--size-xxl) var(--size-s);
+  text-align: center;
+
+  @media screen and (min-width: #{breakpoints.$breakpoint-l}) {
+    text-align: left;
+  }
+}
+
+.app-footer__copyright {
+  margin: 0;
+}

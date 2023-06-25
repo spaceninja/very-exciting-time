@@ -6,12 +6,15 @@
   <title>{% if title %}{{ title }} | {% endif %}{{ metadata.title }}</title>
   <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
   <link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+  </noscript>
+  <link rel="stylesheet" href="/style.css">
   <link rel="icon" href="/favicon.svg">
   <link rel="mask-icon" href="/favicon.svg" color="#000000">
-  <link rel="stylesheet" href="/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <meta property='og:site_name' content='{{ metadata.title }}' />
   <meta property='og:locale' content='en_US' />
   <meta property='og:type' content='{{ metaType or 'website' }}' />
@@ -29,8 +32,9 @@
 <body class="{{ body_class }}">
   <header class="app-header">
     <div class="app-header__content">
-      <a href="/" class="app-header__logo">{{ metadata.title }}</a>
-      <p class="app-header__tagline">{{ metadata.tagline }}</p>
+      <div class="app-header__branding">
+        <a href="/" class="app-header__logo">{{ metadata.title }}</a>
+      </div>
       <nav class="app-header__nav">
         <ul class="app-header__nav-list">
           {%- for entry in collections.nav %}
@@ -48,11 +52,14 @@
     </div>
   </header>
   <main class="app-main {{ main_class }}">
-    {{ content | safe }}
+    <div class="app-main__content">
+      {{ content | safe }}
+    </div>
   </main>
   <footer class="app-footer">
     <div class="app-footer__content">
       <p class="app-footer__copyright">© {% year %} {{ metadata.author.name }}</p>
+      <p class="outro">Thanks for listening to me talk about UFOs so my wife doesn’t have to.</p>
     </div>
   </footer>
 </body>

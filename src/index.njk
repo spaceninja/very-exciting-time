@@ -2,6 +2,13 @@
 layout: layouts/base.njk
 numberOfLatestEpisodesToShow: 3
 ---
+<h1>{{ metadata.tagline }}</h1>
+
+<p class="intro">
+  Because if UFOs are real… what else? If any of this turns out to be true,
+  it’s a very exciting&nbsp;time!
+</p>
+
 {% set episodesCount = collections.episodes | length %}
 {% set latestEpisodesCount = episodesCount | min(numberOfLatestEpisodesToShow) %}
 <h2>
@@ -16,7 +23,6 @@ numberOfLatestEpisodesToShow: 3
 {% set moreEpisodes = episodesCount - numberOfLatestEpisodesToShow %}
 {% if moreEpisodes > 0 %}
 <p>
-  {{ moreEpisodes }} more episode{% if moreEpisodes != 1 %}s{% endif %}
-  can be found in <a href="/archive/">the archive</a>.
+  More episodes can be found in <a href="/archive/">the archive</a>.
 </p>
 {% endif %}
