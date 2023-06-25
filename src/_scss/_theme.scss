@@ -87,6 +87,14 @@ a:active {
 
 .app-footer {
   border-top: 1px solid currentcolor;
+  clear: both;
   margin-top: 1em;
   padding-top: 1em;
+}
+
+.about__photo {
+  border-radius: 50%;
+  float: left;
+  margin-bottom: 1em;
+  margin-right: 1em;
 }
