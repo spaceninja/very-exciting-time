@@ -1,9 +1,7 @@
 ---
-layout: layouts/page.njk
+layout: layouts/base.njk
 numberOfLatestEpisodesToShow: 3
 ---
-<p>{{ metadata.description }}</p>
-
 {% set episodesCount = collections.episodes | length %}
 {% set latestEpisodesCount = episodesCount | min(numberOfLatestEpisodesToShow) %}
 <h2>
