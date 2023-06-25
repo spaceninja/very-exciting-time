@@ -5,7 +5,7 @@ tags:
   - nav
 ---
 
-A podcast by a UFO nerd and his tolerant friend. Because if UFOs are real… what else? If any of this turns out to be true, it's a very exciting time!
+{{ metadata.description }}
 
 ## Chuck Lauer Vose
 
