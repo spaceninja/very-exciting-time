@@ -1,21 +1,24 @@
+$color-purple-alpha: rgba(#cf2aff, 0.25);
+
 /* Defaults */
 :root {
-  --font-family: -apple-system, system-ui, sans-serif;
-  --font-family-monospace: consolas, menlo, monaco, andale mono wt, andale mono,
-    lucida console, lucida sans typewriter, dejavu sans mono,
-    bitstream vera sans mono, liberation mono, nimbus mono l, courier new,
-    courier, monospace;
+  --font-family-system: -apple-system, system-ui, sans-serif;
+  --font-family-sans: roboto, var(--font-family-system);
+  --font-family-condensed: 'roboto condensed', var(--font-family-sans);
 
   /* Theme colors */
   --color-gray-20: #e0e0e0;
   --color-gray-50: #c0c0c0;
   --color-gray-90: #333;
+  --color-purple: #cf2aff;
+  --color-purple-alpha: #{$color-purple-alpha};
   --background-color: #fff;
   --text-color: var(--color-gray-90);
   --text-color-link: #082840;
   --text-color-link-active: #5f2b48;
   --text-color-link-visited: #17050f;
   --syntax-tab-size: 2;
+  --text-color-title-glow: var(--color-purple-alpha);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,6 +30,7 @@
     --text-color-link-active: #6969f7;
     --text-color-link-visited: #a6a6f8;
     --background-color: #15202b;
+    --text-color-title-glow: var(--color-purple);
   }
 }
 
@@ -37,11 +41,21 @@ html {
 body {
   background: var(--background-color);
   color: var(--text-color);
-  font-family: var(--font-family);
+  font-family: var(--font-family-sans);
+  margin: 1em;
 }
 
+.app-header__logo,
 h1 {
-  color: hotpink;
+  text-shadow: 0 0 0.1em var(--text-color-title-glow);
+}
+
+.app-header__logo,
+h1,
+h2,
+h3 {
+  font-family: var(--font-family-condensed);
+  font-style: italic;
 }
 
 a {
@@ -56,6 +70,20 @@ a:hover,
 a:focus,
 a:active {
   color: var(--text-color-link-active);
+}
+
+.app-header__logo {
+  color: var(--text-color);
+  font-size: 2.5em;
+  font-weight: bold;
+  text-decoration: none;
+
+  &:visited,
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--text-color);
+  }
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -73,6 +101,14 @@ a:active {
   border-bottom: 1px solid currentcolor;
   margin-bottom: 1em;
   padding-bottom: 1em;
+}
+
+.app-header__nav-list {
+  display: flex;
+  gap: 0.5em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .app-header__nav-link[aria-current] {
@@ -97,4 +133,21 @@ a:active {
   float: left;
   margin-bottom: 1em;
   margin-right: 1em;
+}
+
+.spotify-embed {
+  height: 100px;
+  width: 100%;
+
+  // update 2em padding to match body padding
+  @media (min-width: 50em) {
+    height: 161px;
+  }
+}
+
+.app-header__content,
+.app-footer__content,
+.app-main {
+  max-width: 50em;
+  margin-inline: auto;
 }
