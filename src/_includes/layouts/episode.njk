@@ -22,9 +22,10 @@ metaType: article
 {% endif %}
 
 <ul>
-  {% if appleUrl %}<li><a href="{{ appleUrl }}">Listen on Apple Podcasts</a></li>{% endif %}
-  {% if googleUrl %}<li><a href="{{ googleUrl }}">Listen on Google Podcasts</a></li>{% endif %}
-  {% if spotifyUrl %}<li><a href="{{ spotifyUrl }}">Listen on Spotify</a></li>{% endif %}
+  <li><a _target="blank" rel="noreferrer noopener" href="https://podcasts.apple.com/us/podcast/its-a-very-exciting-time/id1652237240">Listen on Apple Podcasts</a></li>
+  <li><a _target="blank" rel="noreferrer noopener" href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9iOTJkNmVhMC9wb2RjYXN0L3Jzcw">Listen on Google Podcasts</a></li>
+  <li><a _target="blank" rel="noreferrer noopener" href="https://open.spotify.com/show/5KQ9ApvfXXCJH0zRYxbgTc">Listen on Spotify</a></li>
+  <li><a _target="blank" rel="noreferrer noopener" href="https://www.youtube.com/@VeryExcitingTime">Listen on YouTube</a></li>
 </ul>
 
 {{ content | safe }}
