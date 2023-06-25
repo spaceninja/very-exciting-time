@@ -4,6 +4,7 @@ description: Whistleblower David Grusch claims that illegal covert programs in p
 date: 2023-06-11
 embedUrl: 18--Urgent-and-Credible---Whistleblower-David-Grusch-e25jit2
 tags:
+  - whistleblowers
   - aaro
   - air-force
   - chris-mellon
@@ -21,7 +22,6 @@ tags:
   - tim-burchett
   - uaptf
   - whistleblower-protection
-  - whistleblowers
 ---
 
 It’s happening! Whistleblower David Grusch, a USAF veteran and senior intelligence officer has provided information to Congress and the Intelligence Community Inspector General about illegal covert programs that possess retrieved non-human craft. This is a wild story, and we’re going to talk about what he’s claiming, why it’s credible, how he differs from previous stories like Bob Lazar, and how the community is reacting. There’s more to come, too, with additional interviews dropping shortly. If this is what it looks like, then this could be the start of Disclosure with a capital D!

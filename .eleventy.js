@@ -52,10 +52,22 @@ module.exports = function (eleventyConfig) {
   // Return all the tags used in a collection
   eleventyConfig.addFilter('getAllTags', (collection) => {
     let tagSet = new Set();
+    let tagCount = {};
     for (let item of collection) {
-      (item.data.tags || []).forEach((tag) => tagSet.add(tag));
+      (item.data.tags || []).forEach((tag) => {
+        tagCount[tag] = tagCount[tag] ? tagCount[tag] + 1 : 1;
+        tagSet.add(tag);
+      });
     }
-    return Array.from(tagSet);
+    return (
+      // At least one tag, sort by count, then alphabetically
+      Array.from(tagSet)
+        .filter((tag) => tagCount[tag] > 1)
+        .sort() // alfa(7), golf(3), xray(7)
+        .reverse() // xray(7), golf(3), alfa(7)
+        .sort((a, b) => tagCount[a] - tagCount[b]) // golf(3), xray(7), alfa(7)
+        .reverse() // alfa(7), xray(7), golf(3)
+    );
   });
 
   // Return all the tags used in a collection, except some
@@ -63,11 +75,6 @@ module.exports = function (eleventyConfig) {
     return (tags || []).filter(
       (tag) => ['all', 'nav', 'episodes'].indexOf(tag) === -1
     );
-  });
-
-  // Return all tags sorted by name
-  eleventyConfig.addFilter('sortTagsByName', (tags) => {
-    return tags.sort((a, b) => a.localeCompare(b));
   });
 
   // Current year shortcode

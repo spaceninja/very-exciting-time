@@ -10,7 +10,7 @@
     "build:content": "eleventy",
     "build:css": "sass src:dist",
     "watch": "run-p watch:*",
-    "watch:content": "eleventy --serve",
+    "watch:content": "eleventy --serve --quiet",
     "watch:css": "sass --watch src:dist",
     "lint": "run-s lint:css lint:prettier",
     "lint:check": "run-s lint:*:check",

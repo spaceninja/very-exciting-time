@@ -1,4 +1,4 @@
 module.exports = {
-  tags: ['episodes', 'ufo', 'uap'],
+  tags: ['episodes'],
   layout: 'layouts/episode.njk',
 };
