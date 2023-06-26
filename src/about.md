@@ -41,7 +41,7 @@ You can email him at [chuck@veryexcitingtime.com](mailto:chuck@veryexcitingtime.
 
 Scott Vandehey is a web developer in sunny Portland, Oregon. He's been fascinated by the phenomenon his whole life, but especially since the rapid progress brought about by the 2017 New York Times article. When he's not excitedly talking to Chuck, he's voraciously consuming podcasts and documentaries about UFOs, acting as DM to a long-running D&D campaign, and raising two kids with his (also tolerant) wife, Annie.
 
-You can find him at [spaceninja.com](https://spaceninja.com), follow him on [Bluesky](https://bsky.app/profile/spaceninja.bsky.social) and [Mastodon](https://mastodon.cloud/@spaceninja), or email him at [scott@veryexcitingtime.com](mailto:scott@veryexcitingtime.com).
+You can find him at [spaceninja.com](https://spaceninja.com), follow him on [Bluesky](https://bsky.app/profile/spaceninja.com) and [Mastodon](https://mastodon.cloud/@spaceninja), or email him at [scott@veryexcitingtime.com](mailto:scott@veryexcitingtime.com).
 
   </div>
 </div>
