@@ -3,13 +3,6 @@ layout: layouts/base.njk
 metaType: article
 ---
 <h1>{{ title }}</h1>
-<ul class="episode-metadata">
-	<li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></li>
-	{%- for tag in tags | filterTagList | sort %}
-	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-	<li><a href="{{ tagUrl }}" class="episode-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
-	{%- endfor %}
-</ul>
 
 {% if embedUrl %}
 <iframe
@@ -22,28 +15,83 @@ metaType: article
 ></iframe>
 {% endif %}
 
-<ul>
-  <li><a _target="blank" rel="noreferrer noopener" href="https://podcasts.apple.com/us/podcast/its-a-very-exciting-time/id1652237240">Listen on Apple Podcasts</a></li>
-  <li><a _target="blank" rel="noreferrer noopener" href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9iOTJkNmVhMC9wb2RjYXN0L3Jzcw">Listen on Google Podcasts</a></li>
-  <li><a _target="blank" rel="noreferrer noopener" href="https://open.spotify.com/show/5KQ9ApvfXXCJH0zRYxbgTc">Listen on Spotify</a></li>
-  <li><a _target="blank" rel="noreferrer noopener" href="https://www.youtube.com/@VeryExcitingTime">Listen on YouTube</a></li>
-</ul>
-
 {{ content | safe }}
+
+<p class="episode__date">
+  {% if episodeNumber %}
+    Episode {{ episodeNumber }}, posted on
+  {% else %}
+    Posted on
+  {% endif %}
+  <time datetime="{{ page.date | htmlDateString }}">
+    {{ page.date | readableDate }}
+  </time>
+</p>
+
+<div class="episode__tags">
+  <h3>Topics:</h3>
+  <ul>
+    {%- for tag in tags | filterTagList | sort %}
+      {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+      <li><a href="{{ tagUrl }}" class="episode-tag">{{ tag }}</a></li>
+    {%- endfor %}
+  </ul>
+</div>
+
+<ul class="subscribe">
+  <li class="subscribe__item">
+    <a
+      class="subscribe__link"
+      _target="blank"
+      rel="noreferrer noopener"
+      href="https://podcasts.apple.com/us/podcast/its-a-very-exciting-time/id1652237240">
+      Listen on <strong>Apple Podcasts</strong>
+    </a>
+  </li>
+  <li class="subscribe__item">
+    <a
+      class="subscribe__link"
+      _target="blank"
+      rel="noreferrer noopener"
+      href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9iOTJkNmVhMC9wb2RjYXN0L3Jzcw">
+      Listen on <strong>Google Podcasts</strong>
+    </a>
+  </li>
+  <li class="subscribe__item">
+    <a
+      class="subscribe__link"
+      _target="blank"
+      rel="noreferrer noopener"
+      href="https://open.spotify.com/show/5KQ9ApvfXXCJH0zRYxbgTc">
+      Listen on <strong>Spotify</strong>
+    </a>
+  </li>
+  <li class="subscribe__item">
+    <a
+      class="subscribe__link"
+      _target="blank"
+      rel="noreferrer noopener"
+      href="https://www.youtube.com/@VeryExcitingTime">
+      Listen on <strong>YouTube</strong>
+    </a>
+  </li>
+</ul>
 
 {%- if collections.episodes %}
   {%- set previousEpisode = collections.episodes | getPreviousCollectionItem %}
   {%- set nextEpisode = collections.episodes | getNextCollectionItem %}
   {%- if nextEpisode or previousEpisode %}
-    <ul class="links-nextprev">
+    <ul class="episode__nav">
       {%- if previousEpisode %}
-        <li>
-          Previous: <a href="{{ previousEpisode.url }}">{{ previousEpisode.data.title }}</a>
+        <li class="episode__nav-item is-previous">
+          <strong>Previous:</strong>
+          <a href="{{ previousEpisode.url }}">{{ previousEpisode.data.title }}</a>
         </li>
       {% endif %}
       {%- if nextEpisode %}
-        <li>
-          Next: <a href="{{ nextEpisode.url }}">{{ nextEpisode.data.title }}</a>
+        <li class="episode__nav-item is-next">
+          <strong>Next:</strong>
+          <a href="{{ nextEpisode.url }}">{{ nextEpisode.data.title }}</a>
         </li>
       {% endif %}
     </ul>

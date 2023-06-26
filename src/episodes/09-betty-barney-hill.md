@@ -1,5 +1,6 @@
 ---
-title: 09. Betty & Barney Hill
+title: Betty & Barney Hill
+episodeNumber: 9
 description: This classic case introduced the world to some common elements of abduction stories including missing time and grey aliens.
 date: 2023-01-29
 embedUrl: 09--Betty--Barney-Hill-e1u6cqf

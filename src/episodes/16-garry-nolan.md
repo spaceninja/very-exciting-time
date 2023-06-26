@@ -1,5 +1,6 @@
 ---
-title: 16. Dr. Garry Nolan
+title: Dr. Garry Nolan
+episodeNumber: 16
 description: Dr. Garry Nolan spoke about UAP research, and said recent whistleblower testimony “created quite a hornet’s nest in Washington!”
 date: 2023-05-23
 embedUrl: 16--Dr--Garry-Nolan-e24jaoj

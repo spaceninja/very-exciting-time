@@ -1,5 +1,6 @@
 ---
-title: 07. USS Nimitz Encounter
+title: USS Nimitz Encounter
+episodeNumber: 7
 description: The famous “tic-tac” UAP incident occured during a training exercise involving the USS Nimitz carrier group in 2004.
 date: 2023-01-09
 embedUrl: 07--USS-Nimitz-Encounter-e1t8tvd

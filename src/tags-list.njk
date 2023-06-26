@@ -1,16 +1,16 @@
 ---
 permalink: /tags/
 layout: layouts/page.njk
-title: Tags
+title: Topics
 tags:
   - nav
 ---
-<ul>
+<ul class="tag-cloud">
 {% for tag in collections.episodes | getAllTags | filterTagList %}
 	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-	<li>
-    <a href="{{ tagUrl }}" class="episode-tag">{{ tag }}</a>
-    ({{ collections[tag].length }})
+	<li class="tag-cloud__item" style="--font-adjust: {{ collections[tag].length }}">
+    <a href="{{ tagUrl }}" class="tag-cloud__link">{{ tag }}</a>
+    <span class="tag-cloud__count">({{ collections[tag].length }})</span>
   </li>
 {% endfor %}
 </ul>

@@ -1,5 +1,6 @@
 ---
-title: 01. Why are we recording a podcast about UFOs?
+title: Why are we recording a podcast about UFOs?
+episodeNumber: 1
 description: “Really? You wanna be the UFO guy?” Yeah, actually, I do!
 date: 2022-10-30
 embedUrl: 01--Why-are-we-recording-a-podcast-about-UFOs-e1pvqsm

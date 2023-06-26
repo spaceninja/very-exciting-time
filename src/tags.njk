@@ -10,7 +10,7 @@ pagination:
   addAllPagesToCollections: true
 layout: layouts/page.njk
 eleventyComputed:
-  title: Tagged “{{ tag }}”
+  title: Episodes tagged “{{ tag }}”
 permalink: /tags/{{ tag | slugify }}/
 ---
 {% set episodeList = collections[ tag ] %}

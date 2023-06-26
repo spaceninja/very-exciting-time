@@ -1,5 +1,6 @@
 ---
-title: 03. The Admiral Wilson Memo
+title: The Admiral Wilson Memo
+episodeNumber: 3
 description: The memo covers Admiral Wilson’s discovery of a secret UFO crash retrieval and reverse engineering program in the military.
 date: 2022-11-01
 embedUrl: 03--The-Admiral-Wilson-Memo-e1pvu9p

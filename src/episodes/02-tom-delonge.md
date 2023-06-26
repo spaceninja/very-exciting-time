@@ -1,5 +1,6 @@
 ---
-title: 02. Tom DeLonge
+title: Tom DeLonge
+episodeNumber: 2
 description: 'Wild but true: Most UFO developments since 2017 can be traced back to Tom DeLonge, the lead singer of Blink 182!'
 date: 2022-10-31
 embedUrl: 02--Tom-DeLonge-e1pvr4s

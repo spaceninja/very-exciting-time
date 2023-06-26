@@ -1,5 +1,6 @@
 ---
-title: 18. “Urgent and Credible” - Whistleblower David Grusch
+title: “Urgent and Credible” - Whistleblower David Grusch
+episodeNumber: 18
 description: Whistleblower David Grusch claims that illegal covert programs in possession of non-human craft have been hidden from Congress.
 date: 2023-06-11
 embedUrl: 18--Urgent-and-Credible---Whistleblower-David-Grusch-e25jit2

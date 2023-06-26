@@ -1,5 +1,6 @@
 ---
-title: 06. Where is the 2022 UAP Report?
+title: Where is the 2022 UAP Report?
+episodeNumber: 6
 description: The 2022 UAP Report was due on October 31. It’s December now, so where is it?
 date: 2022-12-12
 embedUrl: 06--Where-is-the-2022-UAP-Report-e1s5223

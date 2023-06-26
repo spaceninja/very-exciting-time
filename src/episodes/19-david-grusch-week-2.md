@@ -1,5 +1,6 @@
 ---
-title: '19. David Grusch Week 2: The Vatican, UFO “agreements,” and coverups'
+title: 'David Grusch Week 2: The Vatican, UFO “agreements,” and coverups'
+episodeNumber: 19
 description: 'David Grusch: Pope helped the US recover a UFO, and the government has “agreements” with non-human intelligences.'
 date: 2023-06-18
 embedUrl: 19--David-Grusch-Week-2-The-Vatican--UFO-agreements--and-coverups-e25stp7

@@ -1,6 +1,7 @@
 .spotify-embed {
   display: block;
   height: 100px;
+  margin: 2em 0;
   width: 100%;
 
   // update padding to match main padding
@@ -10,5 +11,55 @@
 
   @media (prefers-color-scheme: dark) {
     filter: opacity(0.66);
+  }
+}
+
+.episode__date,
+.episode__tags {
+  font-size: var(--font-size-s);
+}
+
+.episode__tags {
+  margin: 1em 0;
+
+  h3 {
+    display: inline;
+    font: inherit;
+    font-weight: bold;
+  }
+
+  ul {
+    display: inline;
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+
+    &::after {
+      content: ', ';
+    }
+
+    &:last-child::after {
+      content: '';
+    }
+  }
+}
+
+.episode__nav {
+  display: flex;
+  gap: 1em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.episode__nav-item {
+  flex: 1;
+  text-wrap: balance;
+
+  &.is-next {
+    text-align: right;
   }
 }

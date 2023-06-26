@@ -1,5 +1,6 @@
 ---
-title: 04. Bob Lazar
+title: Bob Lazar
+episodeNumber: 4
 description: Bob Lazar is a 1988 whistleblower who claims he worked in a reverse engineering program for recovered alien craft kept at Area 51.
 date: 2022-11-13
 embedUrl: 04--Bob-Lazar-e1qn3rm

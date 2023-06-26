@@ -1,5 +1,6 @@
 ---
-title: 17. NASA’s UAP Team Needs More Data
+title: NASA’s UAP Team Needs More Data
+episodeNumber: 17
 description: The NASA UAP Study Panel held a briefing, where they agreed with Avi Loeb and Sean Kirkpatrick that we need more and better UFO data.
 date: 2023-06-04
 embedUrl: 17--NASAs-UAP-Team-Needs-More-Data-e257l8p

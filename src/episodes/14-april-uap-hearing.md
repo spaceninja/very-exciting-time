@@ -1,5 +1,6 @@
 ---
-title: '14. Congress Gets Mad: The April 2023 UAP Hearing!'
+title: 'Congress Gets Mad: The April 2023 UAP Hearing!'
+episodeNumber: 14
 description: Congress is upset over perceived foot-dragging by the Pentagon on the topic of UAP. AARO gives insight into how their investigations work.
 date: 2023-04-24
 embedUrl: 14--Congress-Gets-Mad-The-April-2023-UAP-Hearing-e22uuvf

@@ -1,6 +1,9 @@
 <ol class="episode-list">
 {% for episode in episodeList | reverse %}
 	<li class="episode-list__item{% if episode.url == url %} is-active{% endif %}">
+    {% if episode.data.episodeNumber %}
+      Ep {{ episode.data.episodeNumber }}:
+    {% endif %}
 		<a href="{{ episode.url }}" class="episode-list__link">
       {% if episode.data.title %}
         {{ episode.data.title }}
