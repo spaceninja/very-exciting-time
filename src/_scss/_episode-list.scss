@@ -1,4 +1,20 @@
 .episode-list {
+  font-size: var(--font-size-l);
   list-style: none;
   padding: 0;
+}
+
+.episode-list__item {
+  margin-bottom: 0.5em;
+}
+
+.episode-list__number {
+  color: var(--color-page-fg-subtle);
+  font-weight: bold;
+}
+
+.episode-list__date {
+  color: var(--color-page-fg-subtle);
+  font-size: smaller;
+  white-space: nowrap;
 }

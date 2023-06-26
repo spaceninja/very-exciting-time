@@ -2,18 +2,18 @@
 {% for episode in episodeList | reverse %}
 	<li class="episode-list__item{% if episode.url == url %} is-active{% endif %}">
     {% if episode.data.episodeNumber %}
-      Ep {{ episode.data.episodeNumber }}:
+      <span class="episode-list__number">Ep {{ episode.data.episodeNumber }}:</span>
     {% endif %}
 		<a href="{{ episode.url }}" class="episode-list__link">
-      {% if episode.data.title %}
+      {%- if episode.data.title -%}
         {{ episode.data.title }}
-      {% else %}
+      {%- else -%}
         <code>{{ episode.url }}</code>
-      {% endif %}
+      {%- endif -%}
     </a>
 		<time class="episode-list__date" datetime="{{ episode.date | htmlDateString }}">
       {{ episode.date | readableDate("DD") }}
-      </time>
+    </time>
 	</li>
 {% endfor %}
 </ol>

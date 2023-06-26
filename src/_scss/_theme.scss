@@ -42,11 +42,11 @@ $color-purple-alpha: rgba(#cf2aff, 0.25);
 
   // Theme colors
   --color-white-90: rgba(255 255 255 / 90%);
-  --color-white-70: rgba(255 255 255 / 70%);
+  --color-white-66: rgba(255 255 255 / 66%);
   --color-white-20: rgba(255 255 255 / 20%);
   --color-gray-20: #e0e0e0;
   --color-gray-50: #c0c0c0;
-  --color-gray-70: #666;
+  --color-gray-66: #666;
   --color-gray-90: #333;
   --color-black-90: rgba(0 0 0 / 70%);
   --color-purple: #cf2aff;
@@ -57,7 +57,7 @@ $color-purple-alpha: rgba(#cf2aff, 0.25);
   // Base Theme
   --color-page-bg: var(--color-white-90);
   --color-page-fg: var(--color-gray-90);
-  --color-page-fg-subtle: var(--color-gray-70);
+  --color-page-fg-subtle: var(--color-gray-66);
   --color-link: var(--color-page-fg);
   --color-link-hover: var(--color-page-fg);
   --color-link-bg-hover: var(--color-yellow-alpha);
@@ -66,7 +66,7 @@ $color-purple-alpha: rgba(#cf2aff, 0.25);
   // Header
   --color-header-bg: rgba(52 46 56 / 66%); // custom to match top of gradient
   --color-header-fg: var(--color-white-90);
-  --color-header-fg-subtle: var(--color-white-70);
+  --color-header-fg-subtle: var(--color-white-66);
   --color-logo-glow: var(--color-purple-50);
 
   // Main
@@ -81,7 +81,7 @@ $color-purple-alpha: rgba(#cf2aff, 0.25);
   :root {
     --color-page-bg: var(--color-black-90);
     --color-page-fg: var(--color-white-90);
-    --color-page-fg-subtle: var(--color-white-70);
+    --color-page-fg-subtle: var(--color-white-66);
     --color-main-highlight: var(--color-white-20);
     --color-link-bg-hover: var(--color-purple-50);
     --color-heading-glow: var(--color-purple-50);
