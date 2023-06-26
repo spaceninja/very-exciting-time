@@ -50,11 +50,8 @@ $color-purple-alpha: rgba(#cf2aff, 0.25);
   --color-gray-90: #333;
   --color-black-90: rgba(0 0 0 / 70%);
   --color-purple: #cf2aff;
-  --color-purple-alpha: color-mix(
-    in srgb,
-    var(--color-purple),
-    transparent 50%
-  );
+  --color-purple-25: color-mix(in srgb, var(--color-purple), transparent 75%);
+  --color-purple-50: color-mix(in srgb, var(--color-purple), transparent 50%);
   --color-yellow-alpha: rgba(255 255 0 / 10%);
 
   // Base Theme
@@ -64,12 +61,13 @@ $color-purple-alpha: rgba(#cf2aff, 0.25);
   --color-link: var(--color-page-fg);
   --color-link-hover: var(--color-page-fg);
   --color-link-bg-hover: var(--color-yellow-alpha);
-  --color-heading-glow: var(--color-purple-alpha);
+  --color-heading-glow: var(--color-purple-25);
 
   // Header
   --color-header-bg: rgba(52 46 56 / 66%); // custom to match top of gradient
   --color-header-fg: var(--color-white-90);
   --color-header-fg-subtle: var(--color-white-70);
+  --color-logo-glow: var(--color-purple-50);
 
   // Main
   --color-main-highlight: white;
@@ -85,7 +83,8 @@ $color-purple-alpha: rgba(#cf2aff, 0.25);
     --color-page-fg: var(--color-white-90);
     --color-page-fg-subtle: var(--color-white-70);
     --color-main-highlight: var(--color-white-20);
-    --color-link-bg-hover: var(--color-purple-alpha);
+    --color-link-bg-hover: var(--color-purple-50);
+    --color-heading-glow: var(--color-purple-50);
   }
 }
 
