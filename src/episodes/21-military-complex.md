@@ -1,9 +1,9 @@
 ---
-title: “A military complex accountable to no one,” Marco Rubio and Ross Coulthart on UAP Whistleblower David Grusch
+title: “A military complex accountable to no one,” Rubio & Coulthart on UAP Whistleblower Grusch
 episodeNumber: 21
 description: 'Marco Rubio and Ross Coulthart raise serious concerns about the UAP program, including threats to whistleblowers and legal concerns.'
 date: 2023-07-09
-embedUrl: 21--A-military-complex-accountable-to-no-one--Marco-Rubio-and-Ross-Coulthart-on-UAP-Whistleblower-David-Grusch-e26oe7r
+embedUrl: 21--A-military-complex-accountable-to-no-one--Rubio--Coulthart-on-UAP-Whistleblower-Grusch-e26oe7r
 tags:
   - aaro
   - anna-paulina-luna
