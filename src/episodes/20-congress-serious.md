@@ -6,21 +6,22 @@ date: 2023-06-28
 embedUrl: 20--Congress-is-taking-UAP-whistleblower-Gruschs-claims-seriously-e26b3te
 tags:
   - aaro
+  - anna-paulina-luna
   - crash-retrieval
   - david-grusch
+  - hearings
+  - iaa
   - josh-hawley
   - kirsten-gillibrand
-  - marco-rubio
   - larry-maguire
-  - susan-gough
   - lockheed-martin
+  - marco-rubio
   - mark-warner
-  - hearings
   - ndaa
-  - iaa
   - pentagon
   - reverse-engineering
   - ross-coulthart
+  - susan-gough
   - whistleblowers
 ---
 
