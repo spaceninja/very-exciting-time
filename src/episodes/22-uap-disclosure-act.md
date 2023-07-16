@@ -1,7 +1,7 @@
 ---
 title: The UAP Disclosure Act of 2023
 episodeNumber: 22
-description: 'Marco Rubio and Ross Coulthart raise serious concerns about the UAP program, including threats to whistleblowers and legal concerns.'
+description: 'Huge news this week as Senate Majority Leader Chuck Schumer introduces the UAP Disclosure Act of 2023!'
 date: 2023-07-16
 embedUrl: 22--The-UAP-Disclosure-Act-of-2023-e270tdl
 tags:
