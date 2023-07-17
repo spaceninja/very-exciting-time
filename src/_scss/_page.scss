@@ -2,10 +2,13 @@
 
 // About Page Profiles
 .profile {
-  align-items: center;
-  display: flex;
-  gap: var(--size-l);
   margin-block: var(--size-xxl);
+
+  @media screen and (min-width: #{breakpoints.$breakpoint-s}) {
+    align-items: center;
+    display: flex;
+    gap: var(--size-l);
+  }
 }
 
 .profile__photo {
