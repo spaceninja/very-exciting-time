@@ -13,6 +13,10 @@
       text-decoration-color: none;
     }
   }
+
+  > * + * {
+    margin-top: 0.5em;
+  }
 }
 
 .app-footer__content {
@@ -29,6 +33,14 @@
   }
 }
 
-.app-footer__copyright {
-  margin-bottom: 0.5em;
+.app-footer__social {
+  ul {
+    display: inline;
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+  }
 }
