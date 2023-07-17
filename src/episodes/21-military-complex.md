@@ -25,6 +25,8 @@ tags:
 
 Chuck is out sick, but we’ve got a special cohost for today: Scott’s wife, Annie! We’re going to be discussing the continuing news of impending UAP hearings in both the House and the Senate, possibly this month! We have additional comments from Marco Rubios’ NewsNation interview, discussing whistleblower concerns that speaking out is punishable by death, and the specter of an unaccountable UAP complex. And journalist Ross Coulthart appeared on all the podcasts, and left some juicy bits of information for us, including the possibility that one of the recovered craft was too large to move, and they just built a building around it! Plus, whistleblowers under threat to sign new NDAs and some legal considerations around private contractors working with government-provided UFO material.
 
+---
+
 ## Upcoming Congressional UAP Hearings:
 
 - Senate staffer says Sen Gillibrand will hold the Senate Armed Services UAP hearing sometime in July.

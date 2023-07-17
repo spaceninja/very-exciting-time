@@ -1,6 +1,7 @@
 <ol class="episode-list">
-{% for episode in episodeList | reverse %}
+{% for episode in episodeList %}
 	<li class="episode-list__item{% if episode.url == url %} is-active{% endif %}">
+    <p class="episode-list__meta">
     {% if episode.data.episodeNumber %}
       <span class="episode-list__number">Ep {{ episode.data.episodeNumber }}:</span>
     {% endif %}
@@ -14,6 +15,10 @@
 		<time class="episode-list__date" datetime="{{ episode.date | htmlDateString }}">
       {{ episode.date | readableDate("DD") }}
     </time>
+    </p>
+    <p class="episode-list__description">
+      {{ episode.data.description }}
+    </p>
 	</li>
 {% endfor %}
 </ol>

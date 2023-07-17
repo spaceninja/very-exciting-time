@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.njk
-numberOfLatestEpisodesToShow: 3
+date: 2022-10-01
+teaseCount: 5
 ---
 <h1>{{ metadata.tagline }}</h1>
 
@@ -10,20 +11,33 @@ numberOfLatestEpisodesToShow: 3
   it’s a very&nbsp;exciting&nbsp;time!
 </p>
 
-{% set episodesCount = collections.episodes | length %}
-{% set latestEpisodesCount = episodesCount | min(numberOfLatestEpisodesToShow) %}
-<h2>
-  Latest {{ latestEpisodesCount }}
-  Episode{% if latestEpisodesCount != 1 %}s{% endif %}
-</h2>
+{% set episodeList = collections.episodes | reverse | head(teaseCount, 1) %}
+{% set latestEpisode = collections.episodes | last %}
+{% set totalCount = collections.episodes | length %}
+{% set previousCount = totalCount | min(teaseCount) %}
+{% set moreCount = totalCount - teaseCount - 1 %}
 
-{% set episodeList = collections.episodes | head(-1 * numberOfLatestEpisodesToShow) %}
-{% set episodeListCounter = episodesCount %}
+{% if latestEpisode.data.embedUrl %}
+  <iframe
+    class="spotify-embed"
+    src="https://podcasters.spotify.com/pod/show/very-exciting-time/embed/episodes/{{ latestEpisode.data.embedUrl }}"
+    height="100px"
+    width="400px"
+    frameborder="0"
+    scrolling="no"
+  ></iframe>
+{% endif %}
+
+{% include "subscribe.njk" %}
+
+<h2>Most Recent Episode</h2>
+{% include "latest-episode.njk" %}
+
+<h2>Previous {{ previousCount }} Episodes</h2>
 {% include "episode-list.njk" %}
 
-{% set moreEpisodes = episodesCount - numberOfLatestEpisodesToShow %}
-{% if moreEpisodes > 0 %}
-<p>
-  More episodes can be found in <a href="/archive/">the archive</a>.
-</p>
+{% if moreCount > 0 %}
+  <p>
+    More episodes can be found in <a href="/archive/">the archive</a>.
+  </p>
 {% endif %}

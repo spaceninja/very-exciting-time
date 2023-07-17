@@ -1,0 +1,24 @@
+<div class="episode-list">
+	<div class="episode-list__item">
+    <p class="episode-list__meta">
+    {% if latestEpisode.data.episodeNumber %}
+      <span class="episode-list__number">Ep {{ latestEpisode.data.episodeNumber }}:</span>
+    {% endif %}
+		<a href="{{ latestEpisode.url }}" class="episode-list__link">
+      {%- if latestEpisode.data.title -%}
+        {{ latestEpisode.data.title }}
+      {%- else -%}
+        <code>{{ latestEpisode.url }}</code>
+      {%- endif -%}
+    </a>
+		<time class="episode-list__date" datetime="{{ latestEpisode.date | htmlDateString }}">
+      {{ latestEpisode.date | readableDate("DD") }}
+    </time>
+    </p>
+    <div class="episode-list__description">
+      {% if latestEpisode.page.excerpt %}
+        {{ latestEpisode.page.excerpt | markdown | safe }}
+      {% endif %}
+    </div>
+	</div>
+</div>

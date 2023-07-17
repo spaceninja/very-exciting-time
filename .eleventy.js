@@ -1,6 +1,11 @@
 const { DateTime } = require('luxon');
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
+const markdownIt = require('markdown-it');
+
+const md = new markdownIt({
+  html: true,
+});
 
 /**
  * Based on Eleventy Base Blog v8
@@ -19,6 +24,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
+  // Parse excerpts from contents
+  eleventyConfig.setFrontMatterParsingOptions({
+    excerpt: true,
+    // Optional, default is "---"
+    // excerpt_separator: '<!-- excerpt -->',
+  });
+
   // Date formatting (human readable)
   // Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
   eleventyConfig.addFilter('readableDate', (dateObj, format, zone) => {
@@ -34,14 +46,17 @@ module.exports = function (eleventyConfig) {
   });
 
   // Get the first `n` elements of a collection.
-  eleventyConfig.addFilter('head', (array, n) => {
+  eleventyConfig.addFilter('head', (array, n, offset = 0) => {
     if (!Array.isArray(array) || array.length === 0) {
       return [];
     }
     if (n < 0) {
+      if (offset) {
+        return array.slice(n - offset, offset * -1);
+      }
       return array.slice(n);
     }
-    return array.slice(0, n);
+    return array.slice(offset, n + offset);
   });
 
   // Return the smallest number argument
@@ -75,6 +90,11 @@ module.exports = function (eleventyConfig) {
     return (tags || []).filter(
       (tag) => ['all', 'nav', 'episodes'].indexOf(tag) === -1
     );
+  });
+
+  // Render Markdown content
+  eleventyConfig.addFilter('markdown', (content) => {
+    return md.render(content);
   });
 
   // Current year shortcode

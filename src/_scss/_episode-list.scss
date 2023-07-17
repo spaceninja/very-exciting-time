@@ -6,10 +6,17 @@
 
 .episode-list__item {
   margin-bottom: 0.5em;
+  padding-left: 5.5ch;
+}
+
+.episode-list__meta {
+  margin: 0;
+  text-indent: -5.5ch;
 }
 
 .episode-list__number {
   color: var(--color-page-fg-subtle);
+  font-variant-numeric: tabular-nums;
   font-weight: bold;
 }
 
@@ -17,4 +24,10 @@
   color: var(--color-page-fg-subtle);
   font-size: smaller;
   white-space: nowrap;
+}
+
+.episode-list__description {
+  color: var(--color-page-fg-subtle);
+  font-size: var(--font-size-m);
+  margin: 0.25em 0 0;
 }

@@ -11,9 +11,11 @@ pagination:
 layout: layouts/page.njk
 eleventyComputed:
   title: Episodes tagged “{{ tag }}”
+date: 2022-10-05
 permalink: /tags/{{ tag | slugify }}/
+eleventyExcludeFromCollections: true
 ---
-{% set episodeList = collections[ tag ] %}
+{% set episodeList = collections[ tag ] | reverse %}
 {% include "episode-list.njk" %}
 
 <p>See <a href="/tags/">all tags</a>.</p>

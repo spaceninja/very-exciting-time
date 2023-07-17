@@ -23,7 +23,9 @@ tags:
   - chris-mellon
 ---
 
-Huge news this week as Senate Majority Leader Chuck Schumer introduces the UAP Disclosure Act of 2023! This is a bipartisan NDAA amendment that would introduce a JFK-style UAP record review board who would review all government records with the intent to release all UAP items within 25 years. Huge! We talk about the implications of this, why it matters, and what the limitations might be. We also discuss the upcoming House UAP hearing, which has been scheduled for July 26, and the increasing willingness of Congress to take the topic seriously. Buckle up!
+Huge news this week as Senate Majority Leader Chuck Schumer introduces the UAP Disclosure Act of 2023! This is a bipartisan NDAA amendment that would introduce a JFK-style UAP record review board who would review all government records with the intent to release all UAP items within 25 years. We talk about the implications of this, why it matters, and what the limitations might be. We also discuss the upcoming House UAP hearing, which has been scheduled for July 26, and the increasing willingness of Congress to take the topic seriously. Buckle up!
+
+---
 
 ## Upcoming Congressional UAP Hearings:
 

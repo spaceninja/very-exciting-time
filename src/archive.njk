@@ -1,8 +1,9 @@
 ---
 layout: layouts/page.njk
 title: Archive
+date: 2022-10-03
 tags:
   - nav
 ---
-{% set episodeList = collections.episodes %}
+{% set episodeList = collections.episodes | reverse %}
 {% include "episode-list.njk" %}
