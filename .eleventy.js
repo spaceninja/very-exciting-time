@@ -14,7 +14,7 @@ const md = new markdownIt({
 module.exports = function (eleventyConfig) {
   // Copy over various static files
   eleventyConfig.addPassthroughCopy(
-    'src/**/*.(gif|ico|jpg|png|svg|webp|woff|woff2)'
+    'src/**/*.(gif|ico|jpg|png|svg|webp|woff|woff2)',
   );
 
   // Watch for CSS changes
@@ -35,7 +35,7 @@ module.exports = function (eleventyConfig) {
   // Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
   eleventyConfig.addFilter('readableDate', (dateObj, format, zone) => {
     return DateTime.fromJSDate(dateObj, { zone: zone || 'utc' }).toFormat(
-      format || 'DDD'
+      format || 'DDD',
     );
   });
 
@@ -88,7 +88,7 @@ module.exports = function (eleventyConfig) {
   // Return all the tags used in a collection, except some
   eleventyConfig.addFilter('filterTagList', function filterTagList(tags) {
     return (tags || []).filter(
-      (tag) => ['all', 'nav', 'episodes'].indexOf(tag) === -1
+      (tag) => ['all', 'nav', 'episodes'].indexOf(tag) === -1,
     );
   });
 

@@ -17,7 +17,7 @@ export const rescueOrphans = (
   string,
   maxLength = 10,
   minWords = 3,
-  maxRatio = 1.5
+  maxRatio = 1.5,
 ) => {
   // Split the string into words.
   // This complex regex is to prevent matching HTML tags in the string.
