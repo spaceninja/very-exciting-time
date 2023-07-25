@@ -10,6 +10,7 @@ tags:
   - chris-mellon
   - drones
   - uap-report
+  - post-disclosure-world
 ---
 
 It’s finally here! We’ve been waiting for the 2022 annual UAP report since halloween. We’ll talk about what the report says, ask some questions about what it means, and dig into the community reaction to it. Let’s go!
