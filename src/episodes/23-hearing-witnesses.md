@@ -27,6 +27,7 @@ tags:
   - post-disclosure-world
   - ross-coulthart
   - sean-kirkpatrick
+  - whistleblowers
 ---
 
 They’ve announced the witnesses for the House Oversight Committee’s UAP hearing, including whistleblower David Grusch as well as Navy pilots David Fravor and Ryan Graves. Several Congresspeople are hopping mad about being denied access to videos and whistleblowers during a visit to Elgin Air Force Base, and they’re making it clear that the upcoming hearing is a direct effort by Congress to confront ongoing Pentagon interference in their UFO investigation. It’s clear Congress knows more than they’re saying… Could it be the reason they’re pushing so hard is because they already have smoking gun evidence?
