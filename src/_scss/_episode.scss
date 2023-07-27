@@ -5,7 +5,7 @@
   width: 100%;
 
   // update padding to match main padding
-  @media (min-width: calc(48em + 1.25em)) {
+  @media (width >= calc(48em + 1.25em)) {
     height: 161px;
   }
 
