@@ -47,6 +47,14 @@
               </a>
             </li>
           {%- endfor %}
+          <li class="app-header__nav-item">
+            <a
+              href="https://www.patreon.com/VeryExcitingTime"
+              class="app-header__nav-link"
+              target="_blank"
+              rel="noreferrer noopener"
+              >Patreon</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -59,15 +67,41 @@
   <footer class="app-footer">
     <div class="app-footer__content">
       <p class="app-footer__copyright">© {% year %} {{ metadata.author.name }}</p>
-      <p class="outro">Thanks for listening to me talk about UFOs so my wife doesn’t have to.</p>
-      <div class="app-footer__social">
+      <p class="outro">
+        Thanks for listening to me talk about UFOs so my wife doesn’t have to.
+      </p>
+      <p class="app-footer__support">
+        You can support us on
+        <a
+          href="https://www.patreon.com/VeryExcitingTime"
+          class="app-footer__nav-link"
+          target="_blank"
+          rel="noreferrer noopener"
+          >Patreon</a>
+      </p>
+      <p class="app-footer__social">
         Follow us on
-        <ul>
-          <li><a href="https://twitter.com/ExcitingTimePod" rel="me">Twitter</a></li>
-          <li><a href="https://mastodon.social/@veryexcitingtime" rel="me">Mastodon</a></li>
-          <li><a href="https://bsky.app/profile/veryexcitingtime.com" rel="me">BlueSky</a></li>
-        </ul>
-      </div>
+        <a
+          href="https://twitter.com/ExcitingTimePod"
+          rel="me"
+          class="app-footer__nav-link"
+          target="_blank"
+          rel="noreferrer noopener"
+          >Twitter</a>,
+        <a
+          href="https://mastodon.social/@veryexcitingtime"
+          rel="me"
+          class="app-footer__nav-link"
+          target="_blank"
+          rel="noreferrer noopener"
+          >Mastodon</a>, or
+        <a
+          href="https://bsky.app/profile/veryexcitingtime.com"
+          rel="me"
+          class="app-footer__nav-link"
+          target="_blank"
+          rel="noreferrer noopener">BlueSky</a>
+      </p>
     </div>
   </footer>
 </body>
