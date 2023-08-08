@@ -20,6 +20,7 @@ tags:
   - sean-kirkpatrick
   - whistleblower-protection
   - whistleblowers
+  - tim-mcmillan
 ---
 
 We’re back is a bit of followup on the recent UAP hearing. In particular a few red flags have been raised that seem to indicate that the DOD is, at best, dragging their feet, and at worst, actively working to sabotage AARO, the UFO office set up at the behest of Congress. In addition to that, we’re hearing increasingly specific information about whistleblowers testifying to both AARO and Congress, which raises the question of why Dr. Kirkpatrick said there’s no credible evidence. Something doesn’t add up here, and it feels like pressure is building.

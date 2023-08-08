@@ -14,6 +14,7 @@ tags:
   - nasa
   - sean-kirkpatrick
   - whistleblowers
+  - tim-mcmillan
 ---
 
 In this episode, we’re talking about the NASA UAP Study Panel, who recently held their first public briefing ahead of their expected report in July. During the briefing, they questioned Dr Kirkpatrick from AARO, and agreed on the need for more and better quality data on UAP. We’ll also talk about Dr Avi Loeb of Harvard, whose Galileo Project is moving forward with public data collection and announced they have plans to set up five additional observatories. And last but very much not least, we’ll hear from Chris #UFODaddy Mellon, who says that if the US Government holds UFO crash materials, now is the time to reveal them!
