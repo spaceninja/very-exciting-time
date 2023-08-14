@@ -62,22 +62,22 @@ In this week’s exciting episode, we cover the aftermath of last week’s explo
 
 ## References
 
-- Chris Mellon: ~[“AARO has not shared satellite images with Congress”](https://twitter.com/ChrisKMellon/status/1684226654636212225)~
-- Chris Mellon: ~[“The oversight committees were asking about satellite data back in 2017.”](https://twitter.com/ChrisKMellon/status/1686821142818865177)~
-- Chris Mellon: ~[“I've seen some VERY compelling evidence.”](https://twitter.com/jamescfox/status/1686138735023288320)~
-- Liberation Times: ~[Department of Defense Confirms UFO Chief Did Write Scathing Letter Following Public Hearing](https://www.liberationtimes.com/home/department-of-defense-confirms-ufo-chief-did-write-scathing-letter-following-public-hearing)~
-- Rep Luna: ~[“We had a witness testify he was in fear for his life and his former boss posts a letter attempting to discredit him? Seems odd.”](https://twitter.com/realannapaulina/status/1685165621401583616)~
-- Nick Pope: ~[“firing off a personal missive like this was unheard of.”](https://twitter.com/nickpopemod/status/1685302825373614080)~
-- Rogue UAPTF: ~[“Kirkpatrick’s statement was unethical and likely illegal.”](https://twitter.com/RogueUAPTF/status/1685039052632788992)~
-- Tim McMillan: ~[“Never seen a sr civil servant publicly admonish Congress”](https://twitter.com/LtTimMcMillan/status/1685006655015063552)~
-- Jeremy Corbell: ~[“Interfering with Congress and whistleblowers is illegal”](https://twitter.com/JeremyCorbell/status/1685103591999086592)~
-- Eric Weinstein: ~[“warring factions in the US government.”](https://twitter.com/EricRWeinstein/status/1685046265468305408)~
-- Sen. Gillibrand: ~[“I asked for Dr Kirkpatrick to meet with Grusch.”](https://www.askapol.com/p/exclusive-sen-gillibrand-has-asked#details)~
-- Ross Coulthart: ~[“AARO is sending a shocking signal - no phone, no email”](https://www.youtube.com/watch?v=rz2dIeKV1rk&t=205s)~
-- Liberation Times: ~[“Dozens of firsthand whistleblowers are frustrated with AARO’s handling of their claims.”](https://www.liberationtimes.com/home/scientific-report-confirms-multiple-tic-tac-ufos-were-tracked-above-80000-feet-in-space-during-west-coast-2004-encounters)~
-- AOC: ~[“I do think something is going on.”](https://www.reddit.com/r/UFOs/comments/15cn3xq/aoc_on_uap_hearing_mentions_boeing_i_do_think/)~
-- Condorman: ~[“sudden hard industry crackdown on all things UAP”](https://twitter.com/Condorman6/status/1679351212271910915)~
-- NewsNation: ~[“Lockheed does not deny whistleblower claims.”](https://twitter.com/wow36932525/status/1685057515950690305)~
-- Ross Coulthart: ~[“Why should DOD answer for Lockheed?”](https://twitter.com/rosscoulthart/status/1685066574624100352)~
-- Condorman: ~[“Executives’ past bonuses can be ‘clawed back’ if they’ve withheld financial significant information.”](https://twitter.com/Condorman6/status/1687583251383087104)~
-- Attorney: ~[“C-Suite will sing like canaries to avoid prison”](https://twitter.com/BarnettParker/status/1687551097064538112)~
+- Chris Mellon: [“AARO has not shared satellite images with Congress”](https://twitter.com/ChrisKMellon/status/1684226654636212225)
+- Chris Mellon: [“The oversight committees were asking about satellite data back in 2017.”](https://twitter.com/ChrisKMellon/status/1686821142818865177)
+- Chris Mellon: [“I've seen some VERY compelling evidence.”](https://twitter.com/jamescfox/status/1686138735023288320)
+- Liberation Times: [Department of Defense Confirms UFO Chief Did Write Scathing Letter Following Public Hearing](https://www.liberationtimes.com/home/department-of-defense-confirms-ufo-chief-did-write-scathing-letter-following-public-hearing)
+- Rep Luna: [“We had a witness testify he was in fear for his life and his former boss posts a letter attempting to discredit him? Seems odd.”](https://twitter.com/realannapaulina/status/1685165621401583616)
+- Nick Pope: [“firing off a personal missive like this was unheard of.”](https://twitter.com/nickpopemod/status/1685302825373614080)
+- Rogue UAPTF: [“Kirkpatrick’s statement was unethical and likely illegal.”](https://twitter.com/RogueUAPTF/status/1685039052632788992)
+- Tim McMillan: [“Never seen a sr civil servant publicly admonish Congress”](https://twitter.com/LtTimMcMillan/status/1685006655015063552)
+- Jeremy Corbell: [“Interfering with Congress and whistleblowers is illegal”](https://twitter.com/JeremyCorbell/status/1685103591999086592)
+- Eric Weinstein: [“warring factions in the US government.”](https://twitter.com/EricRWeinstein/status/1685046265468305408)
+- Sen. Gillibrand: [“I asked for Dr Kirkpatrick to meet with Grusch.”](https://www.askapol.com/p/exclusive-sen-gillibrand-has-asked#details)
+- Ross Coulthart: [“AARO is sending a shocking signal - no phone, no email”](https://www.youtube.com/watch?v=rz2dIeKV1rk&t=205s)
+- Liberation Times: [“Dozens of firsthand whistleblowers are frustrated with AARO’s handling of their claims.”](https://www.liberationtimes.com/home/scientific-report-confirms-multiple-tic-tac-ufos-were-tracked-above-80000-feet-in-space-during-west-coast-2004-encounters)
+- AOC: [“I do think something is going on.”](https://www.reddit.com/r/UFOs/comments/15cn3xq/aoc_on_uap_hearing_mentions_boeing_i_do_think/)
+- Condorman: [“sudden hard industry crackdown on all things UAP”](https://twitter.com/Condorman6/status/1679351212271910915)
+- NewsNation: [“Lockheed does not deny whistleblower claims.”](https://twitter.com/wow36932525/status/1685057515950690305)
+- Ross Coulthart: [“Why should DOD answer for Lockheed?”](https://twitter.com/rosscoulthart/status/1685066574624100352)
+- Condorman: [“Executives’ past bonuses can be ‘clawed back’ if they’ve withheld financial significant information.”](https://twitter.com/Condorman6/status/1687583251383087104)
+- Attorney: [“C-Suite will sing like canaries to avoid prison”](https://twitter.com/BarnettParker/status/1687551097064538112)

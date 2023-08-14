@@ -106,9 +106,9 @@ They’ve announced the witnesses for the House Oversight Committee’s UAP hear
 - Rep. Luna: [“The Pentagon answers to the people and thus Congress”](https://www.reddit.com/r/UFOs/comments/1553apk/the_military_the_pentagon_the_intelligence/)
 - Rep. Moskowitz: [“Disclosure is coming!”](https://twitter.com/JaredEMoskowitz/status/1682123605583228929)
 - Exoacademian: [“This is not your imagination.”](https://twitter.com/ExoAcademian/status/1682199105995505666)
-- Dr Kirkpatrick: ~[“We believe [the whistleblowers] have seen something.”](https://abcnews.go.com/Politics/extraterrestrial-technical-supremacy-top-concern-pentagon-ufo-investigator/story?id=101218299)~
+- Dr Kirkpatrick: [“We believe [the whistleblowers] have seen something.”](https://abcnews.go.com/Politics/extraterrestrial-technical-supremacy-top-concern-pentagon-ufo-investigator/story?id=101218299)
 - Gaël Lombart: [“It’s not clear to me that Grusch has no firsthand info.”](https://twitter.com/GaelLombart/status/1682312419610165248)
-- Lue Elizondo: ~[“You are wrong [that Grusch has no firsthand info].”](https://twitter.com/LueElizondo/status/1682172934574538754)~
+- Lue Elizondo: [“You are wrong [that Grusch has no firsthand info].”](https://twitter.com/LueElizondo/status/1682172934574538754)
 - Lue Elizondo: [“Chris and I are still very much in the fight.”](https://twitter.com/LueElizondo/status/1682060308578271232)
 - Chris Mellon: [“Congress should ask the ICIG what it has uncovered.”](https://twitter.com/ChrisKMellon/status/1682158454360752128)
 - Lue Elizondo: [“I know Grusch personally and he’s an American treasure.”](https://twitter.com/lueelizondo/status/1682171899315453952)
