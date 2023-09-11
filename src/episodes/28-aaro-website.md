@@ -1,7 +1,7 @@
 ---
 title: AARO’s New Boss Launches Website, Avi Loeb Finds Interstellar Material
 episodeNumber: 28
-description: AARO gets a new boss and a new website, more whistleblowers talk to the ICIG, and Avi Loeb claims to have recovered interstallar object!
+description: AARO gets a new boss and a new website, more whistleblowers talk to the ICIG, and Avi Loeb claims to have recovered an interstellar object!
 date: 2023-09-10
 embedUrl: AAROs-New-Boss-Launches-Website--Avi-Loeb-Finds-Interstellar-Material-e295jsi
 tags:
