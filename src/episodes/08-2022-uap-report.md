@@ -9,7 +9,7 @@ tags:
   - balloons
   - chris-mellon
   - drones
-  - uap-report
+  - reports
   - post-disclosure-world
 ---
 

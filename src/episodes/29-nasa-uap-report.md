@@ -29,6 +29,7 @@ tags:
   - mummies
   - aliens
   - bodies
+  - reports
 ---
 
 It’s been a busy few weeks! We briefly touch on the Alien Mummy story in Mexico, report on some House UFO gossip, including another upcoming UAP hearing. We look at reports that multiple senators have been pressuring AARO to do a better job protecting whistleblowers, and a new article claiming more than 30 additional whistleblowers have come forward to the ICIG directly. And lastly, we discuss the report released by NASA’s independent UAP study team, which manages to make a lot of solid recommendations about NASA’s role in gathering UAP data moving forward, while also being dismissive and condescending toward the topic in general.
