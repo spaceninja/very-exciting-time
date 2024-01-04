@@ -1,4 +1,4 @@
 module.exports = {
-  extends: ['stylelint-config-spaceninja', 'stylelint-config-prettier'],
+  extends: ['stylelint-config-spaceninja'],
   rules: {},
 };
