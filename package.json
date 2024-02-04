@@ -24,7 +24,7 @@
     "@11ty/eleventy-plugin-rss": "1.2.0",
     "luxon": "3.4.4",
     "npm-run-all2": "6.1.2",
-    "prettier": "3.2.4",
+    "prettier": "3.2.5",
     "sass": "1.70.0",
     "stylelint": "16.2.1",
     "stylelint-config-spaceninja": "15.0.0"
