@@ -1,5 +1,6 @@
 const { DateTime } = require('luxon');
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
+const { EleventyRenderPlugin } = require('@11ty/eleventy');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const markdownIt = require('markdown-it');
 
@@ -23,6 +24,7 @@ module.exports = function (eleventyConfig) {
   // Official plugins
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
 
   // Parse excerpts from contents
   eleventyConfig.setFrontMatterParsingOptions({
@@ -99,6 +101,18 @@ module.exports = function (eleventyConfig) {
 
   // Current year shortcode
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
+
+  // SVG shortcode
+  eleventyConfig.addAsyncShortcode('svg', async (filename) => {
+    const filePath = `./src/images/${filename}.svg`;
+    const engine = 'html'; // HTML engine for vanilla SVG if none is provided
+    const content = eleventyConfig.nunjucksAsyncShortcodes.renderFile(
+      filePath,
+      null,
+      engine,
+    );
+    return content;
+  });
 
   return {
     dir: {

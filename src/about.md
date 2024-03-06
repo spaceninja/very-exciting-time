@@ -25,7 +25,7 @@ tags:
 
 ## Chuck Lauer Vose
 
-TODO: description & photo
+An aerospace nerd and a tolerant friend.
 
 You can email him at [chuck@veryexcitingtime.com](mailto:chuck@veryexcitingtime.com)
 

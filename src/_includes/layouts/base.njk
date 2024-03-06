@@ -33,7 +33,9 @@
   <header class="app-header">
     <div class="app-header__content">
       <div class="app-header__branding">
-        <a href="/" class="app-header__logo">{{ metadata.title }}</a>
+        <a href="/" class="app-header__logo">
+          {% svg "very-exciting-logo-glow" %}
+        </a>
       </div>
       <nav class="app-header__nav">
         <ul class="app-header__nav-list">
@@ -102,6 +104,12 @@
           target="_blank"
           rel="noreferrer noopener">BlueSky</a>
       </p>
+    </div>
+    <div class="app-footer__landscape">
+      {% svg "landscape" %}
+    </div>
+    <div class="app-footer__figures">
+      {% svg "figures" %}
     </div>
   </footer>
 </body>

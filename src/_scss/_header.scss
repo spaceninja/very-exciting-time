@@ -1,30 +1,43 @@
 @use 'breakpoints';
 
 .app-header {
-  background: var(--color-header-bg);
   color: var(--color-header-fg);
   line-height: var(--line-height-s);
 }
 
 .app-header__content {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
   font-family: var(--font-condensed);
   font-size: var(--font-size-m);
   line-height: 1;
-  margin-inline: auto;
+  margin-inline: var(--size-s);
   max-width: var(--size-page-width);
-  padding: var(--size-l) var(--size-s);
+  padding-top: var(--size-s);
+  position: relative;
 
   @media screen and (min-width: #{breakpoints.$breakpoint-s}) {
     font-size: var(--font-size-l);
   }
 
-  @media screen and (min-width: #{breakpoints.$breakpoint-l}) {
-    flex-direction: row;
-    font-size: var(--font-size-xl);
+  @media screen and (min-width: #{breakpoints.$breakpoint-s}) {
+    margin-inline: var(--size-l);
   }
+
+  @media screen and (min-width: #{breakpoints.$breakpoint-m}) {
+    margin-inline: var(--size-xl);
+  }
+
+  @media screen and (min-width: #{breakpoints.$breakpoint-l}) {
+    font-size: var(--font-size-xl);
+    margin-inline: var(--size-xxl);
+  }
+
+  @media screen and (min-width: #{breakpoints.$breakpoint-xl}) {
+    margin-inline: auto;
+  }
+}
+
+.app-header__branding {
+  width: 100%;
 }
 
 .app-header__logo {
@@ -49,6 +62,12 @@
     background: none;
     color: var(--color-header-fg);
   }
+
+  svg {
+    aspect-ratio: 512/239;
+    display: block;
+    width: 100%;
+  }
 }
 
 .app-header__tagline {
@@ -68,9 +87,17 @@
 .app-header__nav-list {
   display: flex;
   gap: 1em;
+  justify-content: center;
   list-style: none;
   margin: 0;
   padding: 0;
+
+  @media screen and (min-width: #{breakpoints.$breakpoint-s}) {
+    bottom: 0;
+    justify-content: flex-end;
+    position: absolute;
+    right: var(--size-s);
+  }
 }
 
 /**

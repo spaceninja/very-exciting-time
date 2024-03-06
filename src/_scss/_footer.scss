@@ -4,6 +4,9 @@
   background: var(--color-footer-bg);
   color: var(--color-footer-fg);
   line-height: var(--line-height-s);
+  margin-top: 12%;
+  position: relative;
+  z-index: 0;
 
   a {
     color: var(--color-footer-link, inherit);
@@ -26,6 +29,7 @@
   margin-inline: auto;
   max-width: var(--size-page-width);
   padding: var(--size-xxl) var(--size-s);
+  padding-top: 0;
   text-align: center;
 
   @media screen and (min-width: #{breakpoints.$breakpoint-l}) {
@@ -42,5 +46,45 @@
 
   li {
     display: inline;
+  }
+}
+
+.app-footer__landscape {
+  left: 0;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateY(-100%);
+  z-index: -1;
+
+  svg {
+    display: block;
+    fill: var(--color-footer-bg);
+    width: 100%;
+  }
+}
+
+.app-footer__figures {
+  bottom: 0;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  transform: translateX(-50%);
+  z-index: -1;
+
+  @media screen and (min-width: #{breakpoints.$breakpoint-l}) {
+    left: 75%;
+    z-index: 1;
+  }
+
+  svg {
+    display: block;
+    fill: #1f110f;
+    width: 100%;
+
+    @media screen and (min-width: #{breakpoints.$breakpoint-l}) {
+      width: 20vw;
+    }
   }
 }

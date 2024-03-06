@@ -11,6 +11,8 @@
   margin-inline: var(--size-s);
   max-width: var(--size-page-width);
   padding: var(--size-m);
+  position: relative;
+  z-index: 1;
 
   > *:first-child {
     margin-block-start: 0;
