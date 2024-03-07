@@ -1,7 +1,7 @@
 @use 'breakpoints';
 
 .app-footer {
-  background: var(--color-footer-bg);
+  background: var(--color-footer-bg-10);
   color: var(--color-footer-fg);
   line-height: var(--line-height-s);
   margin-top: 12%;
@@ -60,7 +60,7 @@
 
   svg {
     display: block;
-    fill: var(--color-footer-bg);
+    fill: var(--color-footer-bg-10);
     width: 100%;
   }
 }

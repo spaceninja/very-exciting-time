@@ -73,7 +73,12 @@ $color-purple-alpha: rgba(#cf2aff, 0.25);
   --color-main-highlight: white;
 
   // Footer
-  --color-footer-bg: rgba(50 30 20 / 66%); // custom to match bottom of gradient
+  --color-footer-bg: #1f110f;
+  --color-footer-bg-10: color-mix(
+    in srgb,
+    var(--color-footer-bg),
+    transparent 10%
+  );
   --color-footer-fg: var(--color-white-90);
 }
 
@@ -93,27 +98,12 @@ html {
 }
 
 body {
-  background: linear-gradient(
-    to bottom,
-    #3d302f,
-    #4b3e41,
-    #5f525d,
-    #706267,
-    #6f6569,
-    #6c636a,
-    #70666a,
-    #706466,
-    #695f62,
-    #736565,
-    #816c68,
-    #77625a,
-    #825d46,
-    #8b5735,
-    #58341f,
-    #27150f
-  );
   background-attachment: fixed;
   background-color: var(--color-page-bg);
+  background-image: url('/images/background@768.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: var(--color-page-fg);
 
   &::before {
