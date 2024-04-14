@@ -26,6 +26,7 @@ tags:
   - uaptf
   - vatican
   - whistleblowers
+  - magenta-italy
 ---
 
 Scott’s coming at you solo with the latest updates on UFO Whistleblower David Grusch’s story. This week we’re covering his video interview with Ross Coulthart, where among other revelations he shared that the Vatican helped the US recover a crashed UFO from Italy in 1945, and that the US government possibly has “agreements” with non-human intelligences. Not to mention running a decades-long coverup and disinformation operation against US citizens. We also cover the latest Congressional reactions to Grusch’s story, as well as Michael Shellenberger’s story with additional sources confirming Grusch’s claims.
