@@ -1,21 +1,35 @@
+---js
+{
+  pagination: {
+    data: 'collections',
+    size: 1,
+		before: function(paginationData, fullData) {
+			// Filter out orphan tags and fake tags
+			return paginationData.filter(tag => {
+				return !["all", "page", "episodes"].includes(tag)
+					&& fullData.collections[tag].length > 1;
+			}).map(tag => {
+        return {
+          title: tag,
+          slug: this.slugify(tag),
+        };
+			});
+		},
+    alias: 'tag',
+  },
+  layout: 'layouts/page.njk',
+  eleventyComputed: {
+    title: (data) => {
+      return `Episodes tagged “${ data.tag.title }”`;
+    },
+  },
+  permalink: (data) => {
+    return `tags/${data.tag.slug}/`;
+  },
+  eleventyExcludeFromCollections: true,
+}
 ---
-pagination:
-  data: collections
-  size: 1
-  alias: tag
-  filter:
-    - all
-    - nav
-    - episodes
-  addAllPagesToCollections: true
-layout: layouts/page.njk
-eleventyComputed:
-  title: Episodes tagged “{{ tag }}”
-date: 2022-10-05
-permalink: /tags/{{ tag | slugify }}/
-eleventyExcludeFromCollections: true
----
-{% set episodeList = collections[ tag ] | reverse %}
+{% set episodeList = collections[ tag.title ] | reverse %}
 {% include "episode-list.njk" %}
 
 <p>See <a href="/tags/">all tags</a>.</p>
