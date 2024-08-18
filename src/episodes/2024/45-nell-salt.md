@@ -13,6 +13,7 @@ tags:
   - mike-rounds
   - tim-gallaudet
   - matthew-pines
+  - catastrophic-disclosure
 ---
 
 The SALT conference invited Karl Nell to speak to an audience of high-powered investors about non-human intelligence on Earth, which Nell said he has “zero doubt” is happening. He also discussed what disclosure might look like, why the government might be reluctant to disclose, and why they should do it anyway, as well as explaining why “catastrophic disclosure” could lead to societal collapse!

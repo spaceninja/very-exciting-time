@@ -13,6 +13,7 @@ tags:
   - disclosure
   - kevin-knuth
   - karl-nell
+  - catastrophic-disclosure
 ---
 
 It’s been a busy few weeks! There were five UFO-related commercials at the Superbowl. The SOL Foundation dropped the videos from their UAP conference. Congress had a minor freakout directly after a UAP briefing by Lue Elizondo. The DODIG found that the DOD’s lack of a coordinated UAP plan leaves the US at risk. And Sean Kirkpatrick’s article drew a lot of pushback, questions about whether he followed the DOPSR process, and raising concerns that he may be a disinformation agent.

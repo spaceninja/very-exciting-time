@@ -21,6 +21,7 @@ tags:
   - david-grusch
   - avi-loeb
   - neil-degrasse-tyson
+  - catastrophic-disclosure
 ---
 
 We’re opening the show with a bit of a bummer, because Schumer’s UAP disclosure amendment in the NDAA failed. Some UAP language remains, but it’s been severely watered down to the point of being perhaps useless, but Lue Elizondo reassures us that there’s a plan B in the works. Ross Coulthart interviewed Retired Navy Admiral Tim Gallaudet, who says plainly that we’re in contact with a non-human intelligence. And lastly, David Grusch dropped some big news: He’s just gained security approval to reveal that he has firsthand knowledge from being read into a UAP program, and is going to release an op-ed in the coming weeks.

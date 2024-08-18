@@ -31,6 +31,7 @@ tags:
   - jacques-vallee
   - karl-nell
   - hal-puthoff
+  - catastrophic-disclosure
 ---
 
 In this episode we discuss the ongoing efforts in Congress to reconcile the NDAA, where top Republicans are fighting to water down Senator Schumer’s UAP Disclosure Amendment, especially the clause that gives the government eminent domain powers to claim any UFOs being held by private aerospace companies. We also look at why everyone’s using the phrase “catastrophic disclosure,” which comes from a leaked slide by retired Army Colonel Karl Nell, which outlines a gradual ten-year disclosure plan that would ease the public into accepting the reality of UAP.
