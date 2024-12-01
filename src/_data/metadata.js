@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   title: 'It’s a Very Exciting Time',
   url: 'https://veryexcitingtime.com/',
   language: 'en',
