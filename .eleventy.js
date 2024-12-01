@@ -1,8 +1,8 @@
-const { DateTime } = require('luxon');
-const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
-const { EleventyRenderPlugin } = require('@11ty/eleventy');
-const pluginRss = require('@11ty/eleventy-plugin-rss');
-const markdownIt = require('markdown-it');
+import { DateTime } from 'luxon';
+import { EleventyHtmlBasePlugin } from '@11ty/eleventy';
+import { EleventyRenderPlugin } from '@11ty/eleventy';
+import pluginRss from '@11ty/eleventy-plugin-rss';
+import markdownIt from 'markdown-it';
 
 const md = new markdownIt({
   html: true,
@@ -12,7 +12,7 @@ const md = new markdownIt({
  * Based on Eleventy Base Blog v8
  * @see https://github.com/11ty/eleventy-base-blog/tree/main
  */
-module.exports = function (eleventyConfig) {
+export default (eleventyConfig) => {
   // Copy over various static files
   eleventyConfig.addPassthroughCopy(
     'src/**/*.(gif|ico|jpg|png|svg|webp|woff|woff2)',
@@ -106,7 +106,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addAsyncShortcode('svg', async (filename) => {
     const filePath = `./src/images/${filename}.svg`;
     const engine = 'html'; // HTML engine for vanilla SVG if none is provided
-    const content = eleventyConfig.nunjucksAsyncShortcodes.renderFile(
+    const content = eleventyConfig.javascript.functions.renderFile(
       filePath,
       null,
       engine,
