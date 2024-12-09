@@ -20,6 +20,7 @@ tags:
   - gregory-guillot
   - ryan-graves
   - chris-mellon
+  - langley-afb
 ---
 
 In this episode we cover a pile of recent UFO news. Ross Coulthart says Congress smells bullshit from the AARO historical report. Rep. Burlison and the UAP Caucus formally requested a UAP select committee. The Joint Chiefs released their new UAP reporting guidelines, which seems to contradict AARO’s finding that there’s no evidence of nonhuman craft. Oh, and multiple Navy ships and Air Force bases have been swarmed by mysterious drones. It’s a very exciting time!

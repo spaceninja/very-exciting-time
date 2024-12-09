@@ -16,6 +16,7 @@ tags:
   - matt-laslo
   - sean-munger
   - ryan-graves
+  - langley-afb
 ---
 
 AARO’s new director, Dr. Jon Kosloski, got his first moments in the spotlight this week, dropping the newest annual UAP report, hosting a media roundtable, and appearing before the Senate. He confirmed UAP are real, some cases are “truly anomalous,” and discussed some cases they’re investigating. He also shared a pretty unsatisfactory resolution for the 2017 GoFast video.
