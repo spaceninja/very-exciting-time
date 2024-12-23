@@ -10,7 +10,7 @@ tags:
   - lawrence-preston-gise
   - richard-bissel
   - richard-geldreich
-  - darren-king
+  - exoacademian
   - tim-gallaudet
   - kirsten-gillibrand
   - jon-kosloski
