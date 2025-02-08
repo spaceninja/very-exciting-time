@@ -18,6 +18,7 @@ tags:
   - fred-baker
   - skywatcher
   - crash-retrieval
+  - psionics
 ---
 
 This week Ross Coulthart introduced his new whistleblower, Jake Barber, an Air Force veteran who has come out as a whistleblower claiming to have worked in the secret UFO crash retrieval program. He shared stories of recovering exotic craft from a testing range in the desert, where he and his team were made ill by their exposure to the things they recovered. Barber says he recovered at least two non-human craft. One was egg-shaped, and there’s video of the recovery. The other made a profound psychic connection with him. He also claims the military has “psionics teams” who request UFOs to land and be recovered. And finally, he says that while tasked to recover illegal evidence of UFO recoveries, he and his team were set up, and he’s gone public to protect himself. It’s a wild story, so buckle up!
