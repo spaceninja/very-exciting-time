@@ -4,8 +4,8 @@ $color-purple-alpha: rgba(#cf2aff, 0.25);
 :root {
   --font-family-system: -apple-system, system-ui, sans-serif;
   --font-family-sans: roboto, var(--font-family-system);
-  --font-family-condensed: 'roboto condensed', sans-serif-condensed,
-    var(--font-family-sans);
+  --font-family-condensed:
+    'roboto condensed', sans-serif-condensed, var(--font-family-sans);
 
   // Font Sizes
   --font-size-xs: 0.75rem; // 12px
