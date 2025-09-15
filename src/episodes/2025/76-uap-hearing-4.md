@@ -44,7 +44,7 @@ Recently, Congress held another UAP hearing! This one was primarily focused on t
   - Luna: “And then you had David Grusch tell us directly that he… felt in fear of his life. And… even just yesterday I actually went into the SCIF with David Grusch and Rep Burlison, and… there was something really bizarre that took place with David Grusch, and it's being handled at the law-enforcement level. But things like that happening are not normal, especially being that David Grusch is currently Eric Burlison's congressional staffer.”
   - Luna: “Something happened as he was driving in… Law enforcement is involved… and if you are going to brandish any weapons at Congressional staffers, it’s very alarming… It was very interesting in timing, and based on what we’ve heard previously from witnesses… this is not the first case of this.”
 
-## Kirkpatrick Drama (optional)
+## Kirkpatrick Drama
 
 - Former AARO Dir Sean Kirkpatrick: “If Luna and her ‘Lunatics’ want to continue to parade charlatans and grifters in front of an audience to satisfy her need for playhouse politics, then the American people should demand accountability of all the wasted taxpayer money and Congressional time she has derailed from more serious issues facing this country… It’s a disgrace to the Congress and the U.S. government and only serves to provide reality TV.”
 - Rep Luna: “Kirkpatrick is an irrelevant little man who is a known documented liar, has blocked the release of information, and tried to discredit witnesses… It seems to me that he’s suffering more from small man complex and sometime his BIG emotions get the best of him… We will continue to pray for the recovery of Mr. Kirkpatrick and his tiny ego and his journey to deal with his mental health.”
