@@ -30,6 +30,8 @@ tags:
   - aaro
   - sean-kirkpatrick
   - whistleblowers
+  - red-square
+  - vandenberg-afb
 ---
 
 The House Oversight Committee’s UAP Hearing just happened, and it was remarkable! Navy pilots David Fravor and Ryan Graves recounted their historic UFO encounters, and intelligence community whistleblower David Grusch reiterated his claims that the government has illegally concealed a UAP crash retrieval and reverse engineering program from Congress. Though these claims have been heard before, it was notable that they testified under oath to an engaged and credulous bipartisan Congress. There was no joking, no attempts to undermine the claims being made, and no political maneuvering. The tone was remarkably serious, and the clear impression is that Congress isn’t letting this topic go. They’re on the ball, and already talking about next steps, including the formation of a UAP select committee with subpoena power!
