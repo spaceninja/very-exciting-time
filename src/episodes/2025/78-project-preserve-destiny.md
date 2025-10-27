@@ -1,7 +1,7 @@
 ---
 title: 'Project Preserve Destiny: NSA secret program to communicate with aliens'
 episodeNumber: 78
-description: Dan Sherman claims to have worked for Project Preserve Destiny, a secret NSA program to community with grey aliens
+description: Dan Sherman claims to have worked for Project Preserve Destiny, a secret NSA program to communicate with grey aliens
 date: 2025-10-12
 embedUrl: Project-Preserve-Destiny-NSA-secret-program-to-communicate-with-aliens-e3a3588
 tags:
