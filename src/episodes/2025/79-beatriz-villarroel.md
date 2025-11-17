@@ -19,8 +19,6 @@ Dr Beatriz Villarroel is a Swedish astronomer and a member of the Sol Foundation
 
 ---
 
-# Podcast Show Notes #podcast
-
 - Back in July, Dr. Beatriz Villarroel starting dropping hints about some upcoming UFO-related scientific papers that were in the process of being peer reviewed.
 - Villarroel: “We looked where few have dared. And we didn’t find nothing.”
 - The UFO community started getting hyped about another serious scientist paying attention to the phenomenon.
