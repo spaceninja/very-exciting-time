@@ -11,6 +11,8 @@ tags:
   - james-fox
   - air-force
   - men-in-black
+  - carlos-de-sousa
+  - marco-cherize
 ---
 
 in 1996, a UFO crashed outside the city of Varginha, Brazil. Several people reported seeing short beings with large red eyes, oily skin, and a strong smell of sulfur. The military cordoned off parts of the town, and captured two of the creatures. Witnesses were intimidated by men in dark suits. A police officer died of mysterious causes after handling one of the creatures. Then the US Air Force takes all the recovered crash debris and bodies. The Brazilian military denied everything, but the event got a lot of attention and is commonly called “the Roswell of Brazil.”
