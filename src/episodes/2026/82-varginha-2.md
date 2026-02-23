@@ -17,6 +17,7 @@ tags:
   - armando-fortunato
   - joao-janini
   - italo-venturelli
+  - brian-tyler-cohen
 ---
 
 Recently, James Fox released an updated version of the “Moment of Contact” documentary about the UFO crash and alien encounters in Varginha, Brazil in 1996. Among the new witnesses are the doctor who performed the autopsy on the military police officer who died after capturing an alien, and a doctor who met a living alien that received treatment in the hospital
