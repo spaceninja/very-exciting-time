@@ -28,6 +28,6 @@
     "prettier": "3.8.1",
     "sass": "1.97.3",
     "stylelint": "17.4.0",
-    "stylelint-config-spaceninja": "15.0.0"
+    "stylelint-config-spaceninja": "16.0.0"
   }
 }
