@@ -4,7 +4,7 @@ episodeNumber: 82
 description: James Fox recently released new information in the Varginha, Brazil UFO case, including a new witness who saw an alien in the hospital.
 date: 2026-02-15
 embedUrl: Varginha-New-Revelations-e3f50kj
-feature_image: "/images/feature/82-varginha-2.jpg"
+feature_image: '/images/feature/82-varginha-2.jpg'
 tags:
   - aliens
   - varginha
