@@ -12,7 +12,7 @@
       {%- endif -%}
     </a>
 		<time class="episode-list__date" datetime="{{ latestEpisode.date | htmlDateString }}">
-      {{ latestEpisode.date | readableDate("DD") }}
+      {{ latestEpisode.date | readableDate("short") }}
     </time>
     </p>
     <div class="episode-list__description">

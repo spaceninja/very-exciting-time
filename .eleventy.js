@@ -1,4 +1,3 @@
-import { DateTime } from 'luxon';
 import { EleventyHtmlBasePlugin } from '@11ty/eleventy';
 import { EleventyRenderPlugin } from '@11ty/eleventy';
 import pluginRss from '@11ty/eleventy-plugin-rss';
@@ -34,17 +33,21 @@ export default (eleventyConfig) => {
   });
 
   // Date formatting (human readable)
-  // Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
-  eleventyConfig.addFilter('readableDate', (dateObj, format, zone) => {
-    return DateTime.fromJSDate(dateObj, { zone: zone || 'utc' }).toFormat(
-      format || 'DDD',
-    );
+  // style: 'long' (default) -> "October 14, 1983", 'short' -> "Oct 14, 1983"
+  eleventyConfig.addFilter('readableDate', (dateObj, style = 'long') => {
+    return new Intl.DateTimeFormat('en-US', {
+      year: 'numeric',
+      month: style === 'short' ? 'short' : 'long',
+      day: 'numeric',
+      timeZone: 'UTC',
+    }).format(dateObj);
   });
 
   // Date formatting (machine readable)
-  // dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
+  // Produces a yyyy-MM-dd valid date string:
+  // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
+    return dateObj.toISOString().slice(0, 10);
   });
 
   // Get the first `n` elements of a collection.
