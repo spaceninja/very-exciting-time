@@ -41,18 +41,18 @@ $color-purple-alpha: rgba(#cf2aff, 0.25);
   --border-thick: 0.1875rem; // 3px
 
   // Theme colors
-  --color-white-90: rgba(255 255 255 / 90%);
-  --color-white-66: rgba(255 255 255 / 66%);
-  --color-white-20: rgba(255 255 255 / 20%);
+  --color-white-90: rgb(255 255 255 / 90%);
+  --color-white-66: rgb(255 255 255 / 66%);
+  --color-white-20: rgb(255 255 255 / 20%);
   --color-gray-20: #e0e0e0;
   --color-gray-50: #c0c0c0;
   --color-gray-66: #666;
   --color-gray-90: #333;
-  --color-black-90: rgba(0 0 0 / 70%);
+  --color-black-90: rgb(0 0 0 / 70%);
   --color-purple: #cf2aff;
   --color-purple-25: color-mix(in srgb, var(--color-purple), transparent 75%);
   --color-purple-50: color-mix(in srgb, var(--color-purple), transparent 50%);
-  --color-yellow-alpha: rgba(255 255 0 / 10%);
+  --color-yellow-alpha: rgb(255 255 0 / 10%);
 
   // Base Theme
   --color-page-bg: var(--color-white-90);
@@ -64,7 +64,7 @@ $color-purple-alpha: rgba(#cf2aff, 0.25);
   --color-heading-glow: var(--color-purple-25);
 
   // Header
-  --color-header-bg: rgba(52 46 56 / 66%); // custom to match top of gradient
+  --color-header-bg: rgb(52 46 56 / 66%); // custom to match top of gradient
   --color-header-fg: var(--color-white-90);
   --color-header-fg-subtle: var(--color-white-66);
   --color-logo-glow: var(--color-purple-50);
