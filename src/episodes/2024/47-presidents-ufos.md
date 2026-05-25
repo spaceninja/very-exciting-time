@@ -16,7 +16,7 @@ tags:
   - gerald-ford
   - j-allen-hynek
   - swamp-gas
-  - blue-book
+  - project-blue-book
   - jimmy-carter
   - george-h-w-bush
   - ronald-reagan
