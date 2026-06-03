@@ -20,13 +20,19 @@
   <meta property='og:locale' content='en_US' />
   <meta property='og:type' content='{{ metaType or 'website' }}' />
   <meta property='og:url' content='https://veryexcitingtime.com{{ page.url }}' />
+  <meta property='twitter:url' content='https://veryexcitingtime.com{{ page.url }}' />
   <meta property='og:title' content='{{ title or metadata.title }}' />
+  <meta property='twitter:title' content='{{ title or metadata.title }}' />
   <meta property='og:description' content='{{ description or metadata.description }}' />
+  <meta property='twitter:description' content='{{ description or metadata.description }}' />
   <meta name='description' content='{{ description or metadata.description }}' />
   <meta property='og:image' content='{{ feature_image or "https://veryexcitingtime.com/images/cover-social.jpg" }}' />
+  <meta property='twitter:image' content='{{ feature_image or "https://veryexcitingtime.com/images/cover-social.jpg" }}' />
   <meta property='og:image:secure_url' content='{{ feature_image or "https://veryexcitingtime.com/images/cover-social.jpg" }}' />
   <meta property='og:image:width' content='1600' />
   <meta property='og:image:height' content='900' />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@ExcitingTimePod" />
 </head>
 <body class="{{ body_class }}">
   <header class="app-header">
