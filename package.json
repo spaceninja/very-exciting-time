@@ -21,7 +21,7 @@
     "lint:prettier:check": "prettier . --check"
   },
   "devDependencies": {
-    "@11ty/eleventy": "3.1.5",
+    "@11ty/eleventy": "3.1.6",
     "@11ty/eleventy-plugin-rss": "3.0.0",
     "npm-run-all2": "9.0.1",
     "prettier": "3.8.3",
