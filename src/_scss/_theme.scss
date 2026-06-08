@@ -49,12 +49,15 @@ $color-purple-alpha: rgba(#cf2aff, 0.25);
   --color-gray-66: #666;
   --color-gray-90: #333;
   --color-black-90: rgb(0 0 0 / 70%);
+  --color-bg: #1a1414;
   --color-purple: #cf2aff;
   --color-purple-25: color-mix(in srgb, var(--color-purple), transparent 75%);
   --color-purple-50: color-mix(in srgb, var(--color-purple), transparent 50%);
   --color-yellow-alpha: rgb(255 255 0 / 10%);
 
   // Base Theme
+  --color-site-bg: var(--color-bg);
+  --color-site-fg: var(--color-white-90);
   --color-page-bg: var(--color-white-90);
   --color-page-fg: var(--color-gray-90);
   --color-page-fg-subtle: var(--color-gray-66);
@@ -98,20 +101,46 @@ html {
 }
 
 body {
-  background-attachment: fixed;
-  background-color: var(--color-page-bg);
-  background-image: url('/images/background@768.jpg');
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: var(--color-page-fg);
+  background-color: var(--color-site-bg);
+  background-image: linear-gradient(
+    to right,
+    #170f0c 0%,
+    #16110e 10%,
+    #171111 20%,
+    #1a1414 30%,
+    #1e181a 40%,
+    #1f1a20 50%,
+    #201a1c 60%,
+    #1e1818 70%,
+    #171312 80%,
+    #130f0e 90%,
+    #110d0c 100%
+  );
+  color: var(--color-site-fg);
+
+  &::before,
+  &::after {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    content: '';
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: -1;
+  }
 
   &::before {
-    backdrop-filter: blur(10px); // makes the gradient a bit smoother
-    content: '';
-    inset: 0;
-    position: fixed;
-    z-index: -1;
+    aspect-ratio: 1600/574;
+    background-image: url('/images/bg-top.jpg');
+    mask-image: linear-gradient(to bottom, black 66%, transparent 100%);
+    top: 0;
+  }
+
+  &::after {
+    aspect-ratio: 1600/1025;
+    background-image: url('/images/bg-bottom.jpg');
+    bottom: 0;
+    mask-image: linear-gradient(to top, black 66%, transparent 100%);
   }
 }
 
