@@ -3,7 +3,7 @@ title: 'Project Rubik’s Cube'
 episodeNumber: 88
 description: Corbell reveals UFO program name, Elizondo discusses hybrid breeding program, Grusch announces press conference
 date: 2026-06-07
-youtubeId: 6Ub7bf_F2Bg
+youtubeId: l6TFS5Mvz0E
 spotifyId: Project-Rubiks-Cube-e3kfh3n/a-acmtlgn
 feature_image: '/images/feature/88-rubiks-cube.jpg'
 tags:
