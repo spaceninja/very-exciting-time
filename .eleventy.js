@@ -17,6 +17,8 @@ export default (eleventyConfig) => {
     'src/**/*.(gif|ico|jpg|png|svg|webp|woff|woff2)',
   );
 
+  eleventyConfig.addPassthroughCopy('src/scripts');
+
   // Watch for CSS changes
   eleventyConfig.addWatchTarget('./src/_scss/');
 

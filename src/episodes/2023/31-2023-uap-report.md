@@ -3,7 +3,7 @@ title: “Nothing New. Pointless.” AARO’s 2023 UAP Report and Congress gets 
 episodeNumber: 31
 description: The 2023 AARO UAP report feels like a last-minute term paper, and the DOD IG disappoints Congress.
 date: 2023-10-31
-embedUrl: Nothing-New--Pointless--AAROs-2023-UAP-Report-and-Congress-gets-DODIG-in-a-SCIF-e2bb3f1
+spotifyId: Nothing-New--Pointless--AAROs-2023-UAP-Report-and-Congress-gets-DODIG-in-a-SCIF-e2bb3f1
 tags:
   - aaro
   - reports

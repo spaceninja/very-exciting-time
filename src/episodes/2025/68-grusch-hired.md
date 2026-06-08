@@ -3,7 +3,7 @@ title: UAP Whistleblower Grusch Hired to Assist Task Force
 episodeNumber: 68
 description: David Grusch has been hired to Rep. Burlison’s staff as a UAP advisor.
 date: 2025-03-30
-embedUrl: UAP-Whistleblower-Grusch-Hired-to-Assist-Task-Force-e30sgla
+spotifyId: UAP-Whistleblower-Grusch-Hired-to-Assist-Task-Force-e30sgla
 tags:
   - anna-paulina-luna
   - eric-burlison

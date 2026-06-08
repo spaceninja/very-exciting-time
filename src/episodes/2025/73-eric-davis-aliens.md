@@ -3,7 +3,7 @@ title: 'Dr. Eric Davis on Alien Races: Greys, Nordics, Reptilians, Insectoids'
 episodeNumber: 73
 description: Dr Eric Davis recently spoke to Congress about crash retrievals, nonhuman tech, and alien races.
 date: 2025-05-25
-embedUrl: Dr--Eric-Davis-on-Alien-Races-Greys--Nordics--Reptilians--Insectoids-e33bsur
+spotifyId: Dr--Eric-Davis-on-Alien-Races-Greys--Nordics--Reptilians--Insectoids-e33bsur
 tags:
   - matthew-brown
   - immaculate-constellation

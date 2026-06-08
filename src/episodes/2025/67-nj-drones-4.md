@@ -3,7 +3,7 @@ title: White House Drone Answer Disappoints
 episodeNumber: 67
 description: Updates on the Congressional task force, Skywatcher, NASA, and the mystery drone situation.
 date: 2025-03-02
-embedUrl: White-House-Drone-Answer-Disappoints-e2vk2sm
+spotifyId: White-House-Drone-Answer-Disappoints-e2vk2sm
 tags:
   - chris-sharp
   - nick-pope

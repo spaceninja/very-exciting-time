@@ -3,7 +3,7 @@ title: Taking a Hiatus
 episodeNumber: 75
 description: The show is taking a hiatus to avoid burnout
 date: 2025-07-06
-embedUrl: Taking-a-Hiatus-e356cr6
+spotifyId: Taking-a-Hiatus-e356cr6
 tags:
   - burnout
 ---

@@ -3,7 +3,7 @@ title: 'Remote Viewing: The CIA’s Secret Psychic Spy Program'
 episodeNumber: 50
 description: Let’s talk about the government’s secret psychic spy program!
 date: 2024-08-04
-embedUrl: Remote-Viewing-The-CIAs-Secret-Psychic-Spy-Program-e2mqn2g
+spotifyId: Remote-Viewing-The-CIAs-Secret-Psychic-Spy-Program-e2mqn2g
 tags:
   - remote-viewing
   - project-stargate

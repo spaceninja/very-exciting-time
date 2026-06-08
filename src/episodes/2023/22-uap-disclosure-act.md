@@ -3,7 +3,7 @@ title: The UAP Disclosure Act of 2023
 episodeNumber: 22
 description: 'Huge news this week as Senate Majority Leader Chuck Schumer introduces the UAP Disclosure Act of 2023!'
 date: 2023-07-16
-embedUrl: 22--The-UAP-Disclosure-Act-of-2023-e270tdl
+spotifyId: 22--The-UAP-Disclosure-Act-of-2023-e270tdl
 tags:
   - james-comer
   - tim-burchett

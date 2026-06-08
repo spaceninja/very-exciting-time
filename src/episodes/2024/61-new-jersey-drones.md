@@ -3,7 +3,7 @@ title: Mystery Drone Swarms in New Jersey & UK
 episodeNumber: 61
 description: No one knows who has been flying swarms of drones over New Jersey and the UK for two weeks.
 date: 2024-12-08
-embedUrl: Mystery-Drone-Swarms-in-New-Jersey--UK-e2s2p8o
+spotifyId: Mystery-Drone-Swarms-in-New-Jersey--UK-e2s2p8o
 tags:
   - drones
   - mothership

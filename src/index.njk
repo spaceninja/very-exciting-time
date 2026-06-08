@@ -17,10 +17,15 @@ teaseCount: 5
 {% set previousCount = totalCount | min(teaseCount) %}
 {% set moreCount = totalCount - teaseCount - 1 %}
 
-{% if latestEpisode.data.embedUrl %}
+{% if latestEpisode.data.youtubeId %}
+<lite-youtube
+  videoid="{{ latestEpisode.data.youtubeId }}"
+  playlabel="Play: {{ latestEpisode.data.title }}"
+></lite-youtube>
+{% elif latestEpisode.data.spotifyId %}
   <iframe
     class="spotify-embed"
-    src="https://podcasters.spotify.com/pod/show/very-exciting-time/embed/episodes/{{ latestEpisode.data.embedUrl }}"
+    src="https://podcasters.spotify.com/pod/show/very-exciting-time/embed/episodes/{{ latestEpisode.data.spotifyId }}"
     height="100px"
     width="400px"
     frameborder="0"

@@ -3,7 +3,7 @@ title: Elizondo Threatened, Kirkpatrick Caught Lying
 episodeNumber: 46
 description: The Raiders saw a UFO, Lue Elizondo reported being threatened, and Sean Kirkpatrick was caught lying about Skinwalker Ranch.
 date: 2024-06-09
-embedUrl: Elizondo-Threatened--Kirkpatrick-Caught-Lying-e2kmo0r
+spotifyId: Elizondo-Threatened--Kirkpatrick-Caught-Lying-e2kmo0r
 tags:
   - maxx-crosby
   - andre-james

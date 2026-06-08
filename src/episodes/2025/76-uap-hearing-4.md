@@ -3,7 +3,7 @@ title: 'Hellfire Missiles and Smuggled Russian UFO Files: The September 2025 Con
 episodeNumber: 76
 description: The latest Congressional UAP hearing featured videos, military witnesses, and smuggled Russian UFO files!
 date: 2025-09-15
-embedUrl: Hellfire-Missiles-and-Smuggled-Russian-UFO-Files-The-September-2025-Congressional-UAP-Hearing-e3898do
+spotifyId: Hellfire-Missiles-and-Smuggled-Russian-UFO-Files-The-September-2025-Congressional-UAP-Hearing-e3898do
 tags:
   - anna-paulina-luna
   - sean-kirkpatrick

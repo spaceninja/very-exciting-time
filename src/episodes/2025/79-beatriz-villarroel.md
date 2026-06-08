@@ -3,7 +3,7 @@ title: 'Vanishing Stars: Dr. Villarroel’s search for pre-Sputnik satellites'
 episodeNumber: 79
 description: Dr. Beatriz Villarroel has published several peer-reviewed papers showing evidence for artificial objects in Earth’s orbit before Sputnik.
 date: 2025-11-16
-embedUrl: Vanishing-Stars-Dr--Villarroels-search-for-pre-Sputnik-satellites-e3b2iis
+spotifyId: Vanishing-Stars-Dr--Villarroels-search-for-pre-Sputnik-satellites-e3b2iis
 tags:
   - beatriz-villarroel
   - jesse-michels

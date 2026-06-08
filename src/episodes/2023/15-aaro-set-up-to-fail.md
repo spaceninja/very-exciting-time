@@ -3,7 +3,7 @@ title: 'Is AARO Being Set Up to Fail? #UFOMamaBear'
 episodeNumber: 15
 description: Red flags have been raised that seem to indicate that the DOD is dragging their feet, or event actively working to sabotage AARO.
 date: 2023-05-08
-embedUrl: 15--Is-AARO-Being-Set-Up-to-Fail--UFOMamaBear-e23mp6v
+spotifyId: 15--Is-AARO-Being-Set-Up-to-Fail--UFOMamaBear-e23mp6v
 tags:
   - aaro
   - chris-mellon

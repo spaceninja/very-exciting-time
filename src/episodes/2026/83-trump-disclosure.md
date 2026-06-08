@@ -3,7 +3,8 @@ title: Will Trump Trigger UFO Disclosure?
 episodeNumber: 83
 description: President Trump said he’s going to release all the UFO files. What does that mean?
 date: 2026-02-22
-embedUrl: Will-Trump-Trigger-UFO-Disclosure-e3ffa7n
+youtubeId: h2O2J-2i_1k
+spotifyId: Will-Trump-Trigger-UFO-Disclosure-e3ffa7n
 feature_image: '/images/feature/83-trump-disclosure.jpg'
 tags:
   - donald-trump

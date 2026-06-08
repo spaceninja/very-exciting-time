@@ -3,7 +3,7 @@ title: 'Colares: When UFOs Attacked in Brazil'
 episodeNumber: 54
 description: In 1977, the Brazilian Air Force investigated and covered up attacks by UFOs.
 date: 2024-09-22
-embedUrl: Colares-When-UFOs-Attacked-in-Brazil-e2oo1u4
+spotifyId: Colares-When-UFOs-Attacked-in-Brazil-e2oo1u4
 tags:
   - lue-elizondo
   - aawsap

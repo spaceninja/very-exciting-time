@@ -3,7 +3,7 @@ title: 'Congress is taking UAP whistleblower Grusch’s claims seriously'
 episodeNumber: 20
 description: 'An alleged secret Canadian UAP reverse engineering program, and Congression quotes and actions showing they take Grusch very seriously.'
 date: 2023-06-28
-embedUrl: 20--Congress-is-taking-UAP-whistleblower-Gruschs-claims-seriously-e26b3te
+spotifyId: 20--Congress-is-taking-UAP-whistleblower-Gruschs-claims-seriously-e26b3te
 tags:
   - aaro
   - anna-paulina-luna

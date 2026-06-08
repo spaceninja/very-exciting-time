@@ -3,7 +3,7 @@ title: 'David Grusch: 1933 UFO Crash Retrieval in Italy'
 episodeNumber: 42
 description: David Grusch says the first UFO crash retrieval was in Italy in 1933, and the Pope was involved!
 date: 2024-04-14
-embedUrl: David-Grusch-1933-UFO-Crash-Retrieval-in-Italy-e2id9cg
+spotifyId: David-Grusch-1933-UFO-Crash-Retrieval-in-Italy-e2id9cg
 tags:
   - david-grusch
   - lue-elizondo

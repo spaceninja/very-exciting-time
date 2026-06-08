@@ -3,7 +3,8 @@ title: Burlison Site Visits have White House Support
 episodeNumber: 84
 description: Rep. Burlison disclosed that he’s received assistance from the White House to perform site visits at restricted facilities to investigate UFO whistleblower claims.
 date: 2026-03-15
-embedUrl: Burlison-Site-Visits-have-White-House-Support-e3ggfav
+youtubeId: mDB913iELW8
+spotifyId: Burlison-Site-Visits-have-White-House-Support-e3ggfav
 feature_image: '/images/feature/84-burlison-visits.jpg'
 tags:
   - donald-trump

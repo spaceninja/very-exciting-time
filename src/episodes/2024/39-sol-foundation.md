@@ -3,7 +3,7 @@ title: Garry Nolan, Chris Mellon, Karl Nell, and more at the SOL Foundation Symp
 episodeNumber: 39
 description: The SOL Foundation videos are up, discussing the physics of UAPs, the ethics of disclosure, and how to avoid societal collapse from catastrophic disclosure.
 date: 2024-03-03
-embedUrl: Garry-Nolan--Chris-Mellon--Karl-Nell--and-more-at-the-SOL-Foundation-Symposium-e2gjt8m
+spotifyId: Garry-Nolan--Chris-Mellon--Karl-Nell--and-more-at-the-SOL-Foundation-Symposium-e2gjt8m
 tags:
   - sol-foundation
   - peter-skafish

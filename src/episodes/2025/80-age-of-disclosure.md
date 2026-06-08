@@ -3,7 +3,7 @@ title: The Age of Disclosure
 episodeNumber: 80
 description: We discuss the new information in the much-hyped UFO documentary.
 date: 2025-12-07
-embedUrl: The-Age-of-Disclosure-e3c1bhr
+spotifyId: The-Age-of-Disclosure-e3c1bhr
 tags:
   - andre-carson
   - chris-mellon

@@ -3,7 +3,7 @@ title: Upcoming UAP Hearings in Congress
 episodeNumber: 55
 description: Updates on the upcoming UAP hearings in Congress, status of the UAP disclosure act, and more!
 date: 2024-09-22
-embedUrl: Upcoming-UAP-Hearings-in-Congress-e2p14g8
+spotifyId: Upcoming-UAP-Hearings-in-Congress-e2p14g8
 tags:
   - lue-elizondo
   - harald-malmgren

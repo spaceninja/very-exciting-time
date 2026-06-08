@@ -3,7 +3,7 @@ title: David Grusch Was In Secret Program to Track UAP
 episodeNumber: 36
 description: Congress’s meeting with the ICIG revealed locations. Grusch says he tracked UAP for the military. Kirkpatrick wrote about his time with AARO.
 date: 2024-01-21
-embedUrl: David-Grusch-Was-In-Secret-Program-to-Track-UAP-e2eor5d
+spotifyId: David-Grusch-Was-In-Secret-Program-to-Track-UAP-e2eor5d
 tags:
   - congress
   - icig

@@ -3,7 +3,8 @@ title: Aliens.gov and Commemorative Coins
 episodeNumber: 85
 description: Rumors surrounding some form of UFO disclosure from the Trump administration continue to grow.
 date: 2026-04-18
-embedUrl: Aliens-gov-and-Commemorative-Coins-e3i3q6h
+youtubeId: _fjhnKSaZgA
+spotifyId: Aliens-gov-and-Commemorative-Coins-e3i3q6h
 feature_image: '/images/feature/85-aliens-gov.jpg'
 tags:
   - donald-trump

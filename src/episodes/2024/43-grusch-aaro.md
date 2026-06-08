@@ -3,7 +3,7 @@ title: Why Grusch Wouldn’t Talk to AARO
 episodeNumber: 43
 description: AARO tried repeatedly to get Grusch to testify, but couldn’t address his security concerns.
 date: 2024-04-28
-embedUrl: Why-Grusch-Wouldnt-Talk-to-AARO-e2j0fa4
+spotifyId: Why-Grusch-Wouldnt-Talk-to-AARO-e2j0fa4
 tags:
   - john-oliver
   - chris-mellon

@@ -3,7 +3,7 @@ title: 'Jake Barber: New Whistleblower Worked for UFO Retrieval Program'
 episodeNumber: 64
 description: Introducing Jake Barber, an Air Force whistleblower who claims to have worked in the UFO crash retrieval program.
 date: 2025-01-23
-embedUrl: Jake-Barber-New-Whistleblower-Worked-for-UFO-Retrieval-Program-e2ttoc6
+spotifyId: Jake-Barber-New-Whistleblower-Worked-for-UFO-Retrieval-Program-e2ttoc6
 tags:
   - ross-coulthart
   - jake-barber

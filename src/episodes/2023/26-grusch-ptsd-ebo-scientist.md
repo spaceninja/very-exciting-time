@@ -3,7 +3,7 @@ title: Grusch Health Records Leaked; Scientist claims ET body program
 episodeNumber: 26
 description: An article on David Grusch’s struggles with PTSD is seen as an attempt to intimidate, and a scientist claims to work in a program to study the genetics of alien bodies!
 date: 2023-08-13
-embedUrl: Grusch-Health-Records-Leaked-Scientist-claims-ET-body-program-e282v0v
+spotifyId: Grusch-Health-Records-Leaked-Scientist-claims-ET-body-program-e282v0v
 tags:
   - david-grusch
   - whistleblowers

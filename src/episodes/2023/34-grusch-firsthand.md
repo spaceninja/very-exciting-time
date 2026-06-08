@@ -3,7 +3,7 @@ title: David Grusch Has Firsthand Knowledge
 episodeNumber: 34
 description: The UAP disclosure amendment failed, Ret. Adm. Gallaudet says we’re in contact with NHI, and David Grusch reveals he was read into a UAP program.
 date: 2023-12-17
-embedUrl: David-Grusch-Has-Firsthand-Knowledge-e2dccdt
+spotifyId: David-Grusch-Has-Firsthand-Knowledge-e2dccdt
 tags:
   - disclosure
   - ndaa

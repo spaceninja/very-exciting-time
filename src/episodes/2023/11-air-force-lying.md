@@ -3,7 +3,7 @@ title: Is the Air Force lying to President Biden?
 episodeNumber: 11
 description: Did the Navy tell Biden that the Air Force is lying to him about UAP? Why are the Pentagon and Congress are acting strangly?
 date: 2023-02-26
-embedUrl: 11--Is-the-Air-Force-lying-to-President-Biden-e1vibnc
+spotifyId: 11--Is-the-Air-Force-lying-to-President-Biden-e1vibnc
 tags:
   - aaro
   - air-force

@@ -3,7 +3,7 @@ title: “Truly Anomalous:” AARO’s 2024 Annual UAP Report
 episodeNumber: 60
 description: AARO’s new director just released their annual UAP report, with some interesting changes from last year.
 date: 2024-11-25
-embedUrl: Truly-Anomalous-AAROs-2024-Annual-UAP-Report-e2rg1rq
+spotifyId: Truly-Anomalous-AAROs-2024-Annual-UAP-Report-e2rg1rq
 tags:
   - aaro
   - jon-kosloski

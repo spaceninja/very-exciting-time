@@ -3,7 +3,7 @@ title: Prehistoric Tic-Tacs? Dylan Borland Tells All!
 episodeNumber: 77
 description: UAP whistleblower Dylan Borland shares more details of his story, including claims that tic tac UFOs have been recovered from archeological dig sites!
 date: 2025-10-12
-embedUrl: Prehistoric-Tic-Tacs--Dylan-Borland-Tells-All-e39eg43
+spotifyId: Prehistoric-Tic-Tacs--Dylan-Borland-Tells-All-e39eg43
 tags:
   - dylan-borland
   - jeremy-corbell

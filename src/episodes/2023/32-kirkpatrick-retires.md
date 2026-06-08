@@ -3,7 +3,7 @@ title: Kirkpatrick Retires, Speculative History of UFO Reverse Engineering
 episodeNumber: 32
 description: Kirkpatrick retires, the HOC will read Grusch’s IG report, and a speculative narrative of how a UFO reverse engineering program could have come about.
 date: 2023-11-12
-embedUrl: Kirkpatrick-Retires--Speculative-History-of-UFO-Reverse-Engineering-e2brh91
+spotifyId: Kirkpatrick-Retires--Speculative-History-of-UFO-Reverse-Engineering-e2brh91
 tags:
   - aaro
   - reports

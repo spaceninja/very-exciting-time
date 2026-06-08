@@ -3,7 +3,7 @@ title: 'DODIG: Lack of UAP Plan May Pose a Threat'
 episodeNumber: 38
 description: The DOD’s lack of a UAP plan leaves the US at risk, Congress freaks out about UFOs, and Sean Kirkpatrick may be a disinfo agent.
 date: 2024-02-18
-embedUrl: DODIG-Lack-of-UAP-Plan-May-Pose-a-Threat-e2fveou
+spotifyId: DODIG-Lack-of-UAP-Plan-May-Pose-a-Threat-e2fveou
 tags:
   - superbowl
   - martin-scorsese

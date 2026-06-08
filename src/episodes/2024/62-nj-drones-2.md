@@ -3,7 +3,7 @@ title: 'Mystery Drones: Don’t Believe Your Lying Eyes, Government Says'
 episodeNumber: 62
 description: The government’s attempt to dismiss the NJ drones as hobby drones and stars goes over poorly.
 date: 2024-12-23
-embedUrl: Mystery-Drones-Dont-Believe-Your-Lying-Eyes--Government-Says-e2smdr1
+spotifyId: Mystery-Drones-Dont-Believe-Your-Lying-Eyes--Government-Says-e2smdr1
 tags:
   - drones
   - mothership

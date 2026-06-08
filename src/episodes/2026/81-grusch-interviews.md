@@ -3,7 +3,8 @@ title: David Grusch Calls Out Former DNI James Clapper
 episodeNumber: 81
 description: In a new interview, David Grusch alleges that former DNI James Clapper managed the UAP crash retrieval program.
 date: 2026-01-18
-embedUrl: David-Grusch-Calls-Out-Former-DNI-James-Clapper-e3drocf
+youtubeId: 6Ub7bf_F2Bg
+spotifyId: David-Grusch-Calls-Out-Former-DNI-James-Clapper-e3drocf
 feature_image: '/images/feature/81-grusch-interviews.jpg'
 tags:
   - bret-baier

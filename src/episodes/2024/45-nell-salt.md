@@ -3,7 +3,7 @@ title: “Zero Doubt:” Karl Nell speaks about Non-Human Intelligence on Earth
 episodeNumber: 45
 description: Karl Nell spoke about non-human intelligence and catastrophic disclosure.
 date: 2024-05-27
-embedUrl: Zero-Doubt-Karl-Nell-speaks-about-Non-Human-Intelligence-on-Earth-e2k5v6h
+spotifyId: Zero-Doubt-Karl-Nell-speaks-about-Non-Human-Intelligence-on-Earth-e2k5v6h
 tags:
   - salt-conference
   - karl-nell

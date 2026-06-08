@@ -3,7 +3,7 @@ title: UAP Declassification Task Force
 episodeNumber: 66
 description: Congress has announced a new Task Force intended to declassify files related to JFK and UFOs.
 date: 2025-02-16
-embedUrl: UAP-Declassification-Task-Force-e2uvcam
+spotifyId: UAP-Declassification-Task-Force-e2uvcam
 tags:
   - nancy-mace
   - lue-elizondo

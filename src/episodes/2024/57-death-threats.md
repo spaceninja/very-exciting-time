@@ -3,7 +3,7 @@ title: Death Threats and Dead Man’s Switches
 episodeNumber: 57
 description: Journalists George Knapp and Jeremy Corbell have received death threats and have set up dead man’s switches.
 date: 2024-10-27
-embedUrl: Death-Threats-and-Dead-Mans-Switches-e2q7ji0
+spotifyId: Death-Threats-and-Dead-Mans-Switches-e2q7ji0
 tags:
   - ndaa
   - george-knapp

@@ -3,7 +3,7 @@ title: Alien Bodies!? Whistleblower Grusch and Navy Pilots in House UAP Hearing
 episodeNumber: 24
 description: Congress is taking the testimony of these witnesses very seriously, and discussing next steps.
 date: 2023-07-28
-embedUrl: Alien-Bodies---Whistleblower-Grusch-and-Navy-Pilots-in-House-UAP-Hearing-e27gjq5
+spotifyId: Alien-Bodies---Whistleblower-Grusch-and-Navy-Pilots-in-House-UAP-Hearing-e27gjq5
 tags:
   - mike-garcia
   - glenn-grothman

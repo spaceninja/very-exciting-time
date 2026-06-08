@@ -3,7 +3,7 @@ title: “Catastrophic” UFO Disclosure
 episodeNumber: 33
 description: Congress is fighting over the UAP Disclosure Amendment, and Karl Nell warns of the risk of catastrophic disclosure.
 date: 2023-12-03
-embedUrl: Catastrophic-UFO-Disclosure-e2cp71f
+spotifyId: Catastrophic-UFO-Disclosure-e2cp71f
 tags:
   - chuck-schumer
   - disclosure

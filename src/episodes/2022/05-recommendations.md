@@ -3,7 +3,7 @@ title: Recommendations for UFO books, videos, etc
 episodeNumber: 5
 description: Here are some books, TV series, documentaries, and podcasts that I vd recommend.
 date: 2022-11-27
-embedUrl: 05--Recommendations-for-UFO-books--videos--etc-e1rd2dd
+spotifyId: 05--Recommendations-for-UFO-books--videos--etc-e1rd2dd
 tags:
   - bob-lazar
   - chris-mellon

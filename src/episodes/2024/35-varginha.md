@@ -3,7 +3,7 @@ title: 'Varginha: The Roswell of Brazil'
 episodeNumber: 35
 description: In 1996, a UFO crashed outside Varginha, Brazil, and multiple people encountered unusual creatures that were captured by the military.
 date: 2024-01-15
-embedUrl: Varginha-The-Roswell-of-Brazil-e2egm21
+spotifyId: Varginha-The-Roswell-of-Brazil-e2egm21
 tags:
   - aliens
   - varginha

@@ -3,7 +3,7 @@ title: 'Immaculate Constellation: New Whistleblower Reveals Another Pentagon UFO
 episodeNumber: 56
 description: New whistleblower reveals “Immaculate Constellation,” a Pentagon program to quarantine UFO info.
 date: 2024-10-13
-embedUrl: Immaculate-Constellation-New-Whistleblower-Reveals-Another-Pentagon-UFO-Program-e2pk99b
+spotifyId: Immaculate-Constellation-New-Whistleblower-Reveals-Another-Pentagon-UFO-Program-e2pk99b
 tags:
   - michael-shellenberger
   - ross-coulthart

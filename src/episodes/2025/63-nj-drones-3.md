@@ -3,7 +3,7 @@ title: Cybertruck Bomber Says Mystery Drones are Chinese Anti-Gravity Tech
 episodeNumber: 63
 description: The Cybertruck bomber claims the mystery drones are Chinese tech using “gravitic” propulsion!
 date: 2025-01-06
-embedUrl: Cybertruck-Bomber-Says-Mystery-Drones-are-Chinese-Anti-Gravity-Tech-e2t5lbo
+spotifyId: Cybertruck-Bomber-Says-Mystery-Drones-are-Chinese-Anti-Gravity-Tech-e2t5lbo
 tags:
   - drones
   - ryan-herd

@@ -3,7 +3,7 @@ title: Grusch, Fravor, and Graves to testify at House UAP Hearing
 episodeNumber: 23
 description: Congress claims Pentagon interference as they announce the witnesses for their upcoming UAP hearing.
 date: 2023-07-24
-embedUrl: Grusch--Fravor--and-Graves-to-testify-at-House-UAP-Hearing-e27b2p3
+spotifyId: Grusch--Fravor--and-Graves-to-testify-at-House-UAP-Hearing-e27b2p3
 tags:
   - tim-burchett
   - anna-paulina-luna

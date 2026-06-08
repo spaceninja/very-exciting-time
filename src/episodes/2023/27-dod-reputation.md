@@ -3,7 +3,7 @@ title: Dainty DoD is Concerned UAP Hearings Have Sullied Its Reputation
 episodeNumber: 27
 description: The DOD pushes back by denying Grusch a SCIF and pressuring Congress to avoid public hearings. Plus, UFOs at the Republican presidential debate.
 date: 2023-08-27
-embedUrl: Dainty-DoD-is-Concerned-UAP-Hearings-Have-Sullied-Its-Reputation-e28k0be
+spotifyId: Dainty-DoD-is-Concerned-UAP-Hearings-Have-Sullied-Its-Reputation-e28k0be
 tags:
   - anna-paulina-luna
   - tim-burchett

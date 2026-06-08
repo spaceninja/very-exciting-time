@@ -3,7 +3,7 @@ title: What We Learned from Alien Interviews
 episodeNumber: 37
 description: Reddit scientist claims to have been part of a team producing a report summarizing what the government knows about alien civilization.
 date: 2024-02-04
-embedUrl: What-We-Learned-from-Alien-Interviews-e2fceqs
+spotifyId: What-We-Learned-from-Alien-Interviews-e2fceqs
 tags:
   - congress
   - icig

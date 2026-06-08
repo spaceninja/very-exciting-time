@@ -3,7 +3,7 @@ title: 'The 2022 UAP Report is Here! #UFODaddy'
 episodeNumber: 8
 description: We’ll talk about what the report says, ask some questions about what it means, and dig into the community reaction to it.
 date: 2023-01-15
-embedUrl: 08--The-2022-UAP-Report-is-Here--UFODaddy-e1thdmp
+spotifyId: 08--The-2022-UAP-Report-is-Here--UFODaddy-e1thdmp
 tags:
   - aaro
   - balloons

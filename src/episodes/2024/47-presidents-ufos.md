@@ -3,7 +3,7 @@ title: Which US Presidents Know About UFOs?
 episodeNumber: 47
 description: Find out which US presidents reported UFO sightings, requested UFO briefings, and perhaps more!
 date: 2024-06-23
-embedUrl: Which-US-Presidents-Know-About-UFOs-e2l7m4s
+spotifyId: Which-US-Presidents-Know-About-UFOs-e2l7m4s
 tags:
   - harry-truman
   - robert-landry

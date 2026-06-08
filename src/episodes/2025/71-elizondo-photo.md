@@ -3,7 +3,7 @@ title: Lue Elizondo’s Terrible, Horrible, No Good, Very Bad Day
 episodeNumber: 71
 description: Lue Elizondo shared a UFO photo that was quickly debunked, and a lot of people are upset.
 date: 2025-05-11
-embedUrl: Lue-Elizondos-Terrible--Horrible--No-Good--Very-Bad-Day-e32n1dv
+spotifyId: Lue-Elizondos-Terrible--Horrible--No-Good--Very-Bad-Day-e32n1dv
 tags:
   - anna-paulina-luna
   - david-grusch

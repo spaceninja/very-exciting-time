@@ -3,7 +3,7 @@ title: "Murder, AI, and Occultism: UAP whistleblower Matthew Brown's Odd Twitter
 episodeNumber: 74
 description: Immaculate Constellation whistleblower Matthew Brown posted an odd tweet full of occult symbolism
 date: 2025-06-08
-embedUrl: Murder--AI--and-Occultism-UAP-whistleblower-Matthew-Browns-Odd-Twitter-Message-e33vo4b
+spotifyId: Murder--AI--and-Occultism-UAP-whistleblower-Matthew-Browns-Odd-Twitter-Message-e33vo4b
 tags:
   - matthew-brown
   - immaculate-constellation

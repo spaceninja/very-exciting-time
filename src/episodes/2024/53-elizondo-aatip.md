@@ -3,7 +3,7 @@ title: How Lue Elizondo Saved AATIP
 episodeNumber: 53
 description: The Pentagon has repeatedly changed their story on Lue Elizondo’s role investigating UAP.
 date: 2024-09-01
-embedUrl: How-Lue-Elizondo-Saved-AATIP-e2nsqu6
+spotifyId: How-Lue-Elizondo-Saved-AATIP-e2nsqu6
 tags:
   - lue-elizondo
   - aatip

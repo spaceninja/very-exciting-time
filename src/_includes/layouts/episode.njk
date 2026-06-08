@@ -4,10 +4,15 @@ metaType: article
 ---
 <h1>{{ title }}</h1>
 
-{% if embedUrl %}
+{% if youtubeId %}
+<lite-youtube
+  videoid="{{ youtubeId }}"
+  playlabel="Play: {{ title }}"
+></lite-youtube>
+{% elif spotifyId %}
 <iframe
   class="spotify-embed"
-  src="https://podcasters.spotify.com/pod/show/very-exciting-time/embed/episodes/{{ embedUrl }}"
+  src="https://podcasters.spotify.com/pod/show/very-exciting-time/embed/episodes/{{ spotifyId }}"
   height="100px"
   width="400px"
   frameborder="0"

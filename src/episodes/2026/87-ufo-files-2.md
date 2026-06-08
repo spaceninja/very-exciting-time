@@ -3,7 +3,8 @@ title: 'UFO Files Batch #2'
 episodeNumber: 87
 description: The Pentagon’s second batch of UFO files is out, including a UAP summoning event that Rep Burlison described as the “one that no one could deny.”
 date: 2026-05-25
-embedUrl: UFO-Files-Batch-2-e3jsidl
+youtubeId: hK01dtZ6NRw
+spotifyId: UFO-Files-Batch-2-e3jsidl
 feature_image: '/images/feature/87-ufo-files-2.jpg'
 tags:
   - donald-trump

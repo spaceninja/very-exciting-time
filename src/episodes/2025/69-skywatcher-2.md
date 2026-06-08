@@ -3,7 +3,7 @@ title: 'Skywatcher: “100% Success Rate” Summoning UAP'
 episodeNumber: 69
 description: Skywatcher intends to scientifically prove mechanical and psionic UAP summoning by the end of the year.
 date: 2025-04-13
-embedUrl: Skywatcher-100-Success-Rate-Summoning-UAP-e31gh0d
+spotifyId: Skywatcher-100-Success-Rate-Summoning-UAP-e31gh0d
 tags:
   - skywatcher
   - jake-barber

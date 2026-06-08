@@ -2,7 +2,7 @@
 title: 'Bonus: Chuck and Scott get their giggles out'
 description: A delight for the senses!
 date: 2022-10-29
-embedUrl: Bonus-Chuck-and-Scott-get-their-giggles-out-e1pvqpa
+spotifyId: Bonus-Chuck-and-Scott-get-their-giggles-out-e1pvqpa
 tags:
   - bonus
 ---

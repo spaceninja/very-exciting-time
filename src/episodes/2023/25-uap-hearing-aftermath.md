@@ -3,7 +3,7 @@ title: 'UAP Hearing Aftermath: Kirkpatrick attacks, Pentagon evades, and Lockhee
 episodeNumber: 25
 description: Odd behavior from the director of AARO, the Pentagon, and Lockheed. Plus, Chris Mellon says there’s satellite images of UAP?
 date: 2023-08-08
-embedUrl: UAP-Hearing-Aftermath-Kirkpatrick-attacks--Pentagon-evades--and-Lockheed-locks-e27sl65
+spotifyId: UAP-Hearing-Aftermath-Kirkpatrick-attacks--Pentagon-evades--and-Lockheed-locks-e27sl65
 tags:
   - aaro
   - chris-mellon

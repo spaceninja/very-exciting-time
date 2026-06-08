@@ -3,7 +3,8 @@ title: First UFO Files Released!
 episodeNumber: 86
 description: The government released the first batch of UFO files, with more promised to drop soon!
 date: 2026-05-10
-embedUrl: First-UFO-Files-Released-e3j66u8
+youtubeId: uDNJonT15bE
+spotifyId: First-UFO-Files-Released-e3j66u8
 feature_image: '/images/feature/86-first-ufo-files.jpg'
 tags:
   - donald-trump

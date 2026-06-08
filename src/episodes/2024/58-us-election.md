@@ -3,7 +3,7 @@ title: "US Elections and UAP Disclosure: What's Next?"
 episodeNumber: 58
 description: Will the results of the US election affect the UAP hearing and push for disclosure?
 date: 2024-11-10
-embedUrl: US-Elections-and-UAP-Disclosure-Whats-Next-e2qq7fa
+spotifyId: US-Elections-and-UAP-Disclosure-Whats-Next-e2qq7fa
 tags:
   - george-knapp
   - ross-coulthart

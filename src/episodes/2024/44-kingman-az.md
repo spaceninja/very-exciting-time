@@ -3,7 +3,7 @@ title: Kingman, AZ UFO Crash Retrieval Confirmation?
 episodeNumber: 44
 description: Chris Mellon shared a Signal conversation with a senior USG official claiming they were getting access to the UAP that crashed in Kingman, AZ in 1953!
 date: 2024-05-12
-embedUrl: Kingman--AZ-UFO-Crash-Retrieval-Confirmation-e2jir5i
+spotifyId: Kingman--AZ-UFO-Crash-Retrieval-Confirmation-e2jir5i
 tags:
   - chris-mellon
   - signal

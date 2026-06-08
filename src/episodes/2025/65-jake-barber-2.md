@@ -3,7 +3,7 @@ title: Jake Barber Summons UFO at Nude Hot Springs
 episodeNumber: 65
 description: More details about UFO crash retrieval whistleblower Jake Barber.
 date: 2025-02-07
-embedUrl: Jake-Barber-Summons-UFO-at-Nude-Hot-Springs-e2uj534
+spotifyId: Jake-Barber-Summons-UFO-at-Nude-Hot-Springs-e2uj534
 tags:
   - ross-coulthart
   - jesse-michels

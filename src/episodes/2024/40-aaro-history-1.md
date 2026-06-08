@@ -3,7 +3,7 @@ title: Is AARO’s Historical Report a Coverup?
 episodeNumber: 40
 description: AARO released the first volume of their report on 80 years of UFO investigations, and concluded there is no evidence of extraterrestrial activity.
 date: 2024-03-17
-embedUrl: Is-AAROs-Historical-Report-a-Coverup-e2h787k
+spotifyId: Is-AAROs-Historical-Report-a-Coverup-e2h787k
 tags:
   - sean-kirkpatrick
   - aaro

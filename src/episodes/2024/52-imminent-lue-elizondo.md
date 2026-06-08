@@ -3,7 +3,7 @@ title: 'Imminent: Lue Elizondo and the Pentagon’s Secret UFO Program'
 episodeNumber: 52
 description: Lue Elizondo’s book about the Pentagon’s secret UFO program is out!
 date: 2024-08-24
-embedUrl: Imminent-Lue-Elizondo-and-the-Pentagons-Secret-UFO-Program-e2niogn
+spotifyId: Imminent-Lue-Elizondo-and-the-Pentagons-Secret-UFO-Program-e2niogn
 tags:
   - lue-elizondo
   - books

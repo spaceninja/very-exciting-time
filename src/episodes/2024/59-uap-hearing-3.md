@@ -3,7 +3,7 @@ title: 'Bombshell UAP Hearing: Exposing the Truth'
 episodeNumber: 59
 description: In the latest Congressional UAP hearing, we learned more about UAP crash retrieval and reverse engineering programs.
 date: 2024-11-17
-embedUrl: Bombshell-UAP-Hearing-Exposing-the-Truth-e2r4ki8
+spotifyId: Bombshell-UAP-Hearing-Exposing-the-Truth-e2r4ki8
 tags:
   - nancy-mace
   - mike-gold

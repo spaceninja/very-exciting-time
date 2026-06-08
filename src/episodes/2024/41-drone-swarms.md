@@ -3,7 +3,7 @@ title: Mysterious Drones Swarm Navy Ships and Air Force Bases
 episodeNumber: 41
 description: DOD UAP reporting guidelines, a congressional UAP select committee, mysterious drone swarms, and more!
 date: 2024-03-17
-embedUrl: Mysterious-Drones-Swarm-Navy-Ships-and-Air-Force-Bases-e2hqb3u
+spotifyId: Mysterious-Drones-Swarm-Navy-Ships-and-Air-Force-Bases-e2hqb3u
 tags:
   - anna-paulina-luna
   - matt-gaetz

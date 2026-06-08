@@ -3,7 +3,7 @@ title: “We are in contact with NHI:” Tim Gallaudet
 episodeNumber: 49
 description: Rear Admiral Tim Gallaudet is the latest high-profile figure to call for disclosure of non-human contact.
 date: 2024-07-21
-embedUrl: We-are-in-contact-with-NHI-Tim-Gallaudet-e2m9u4g
+spotifyId: We-are-in-contact-with-NHI-Tim-Gallaudet-e2m9u4g
 tags:
   - tim-gallaudet
   - ryan-graves

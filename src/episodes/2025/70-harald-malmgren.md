@@ -3,7 +3,7 @@ title: JFK Advisor Malmgren Handled UFO Debris
 episodeNumber: 70
 description: In presidential advisor Harald Malmgren’s final interview, he says he held UFO material.
 date: 2025-04-27
-embedUrl: JFK-Advisor-Malmgren-Handled-UFO-Debris-e3233d3
+spotifyId: JFK-Advisor-Malmgren-Handled-UFO-Debris-e3233d3
 tags:
   - jfk
   - harald-malmgren

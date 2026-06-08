@@ -3,7 +3,7 @@ title: NASA Releases UAP Report; Senate Pressures AARO; 30+ More Whistleblowers!
 episodeNumber: 29
 description: NASA’s released their UAP report, there may be 30 additional whistleblowers talking to the ICIG, and the Senate is serious about protecting them.
 date: 2023-10-02
-embedUrl: NASA-Releases-UAP-Report-Senate-Pressures-AARO-30-More-Whistleblowers-e2a2ph7
+spotifyId: NASA-Releases-UAP-Report-Senate-Pressures-AARO-30-More-Whistleblowers-e2a2ph7
 tags:
   - whistleblowers
   - icig
