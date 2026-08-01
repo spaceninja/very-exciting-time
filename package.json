@@ -23,7 +23,7 @@
   "devDependencies": {
     "@11ty/eleventy": "3.1.6",
     "@11ty/eleventy-plugin-rss": "3.0.0",
-    "npm-run-all2": "9.0.2",
+    "npm-run-all2": "9.0.3",
     "prettier": "3.8.5",
     "sass": "1.102.0",
     "stylelint": "17.14.1",
