@@ -30,6 +30,7 @@ tags:
   - james-corden
   - donald-trump
   - ross-coulthart
+  - edward-j-ruppelt
 ---
 
 Did you know that two different presidents have reported UFO sightings? Or that one president campaigned with a promise to open the UFO files? Find out which president is rumored to have attended a meeting with extraterrestrials at an air force base, and which president is reportedly afraid that he’ll be killed if he speaks publicly about UAP.

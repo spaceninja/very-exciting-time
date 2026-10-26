@@ -18,7 +18,7 @@ tags:
   - project-grudge
   - project-blue-book
   - j-allan-hynek
-  - edward-ruppelt
+  - edward-j-ruppelt
   - nathan-twining
   - edward-condon
   - james-fox
