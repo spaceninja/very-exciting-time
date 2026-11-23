@@ -18,7 +18,7 @@ tags:
   - swamp-gas
   - project-blue-book
   - jimmy-carter
-  - george-h-w-bush
+  - george-hw-bush
   - ronald-reagan
   - lucille-ball
   - mikhail-gorbachev
